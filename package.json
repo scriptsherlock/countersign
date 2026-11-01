@@ -1,0 +1,33 @@
+{
+  "name": "countersign",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Countersign (working title): a narrative game about prompt injection and the imitation game. Developer tools only; pupils just open index.html.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "test": "vitest run",
+    "test:warden": "node tools/test-warden.mjs",
+    "test:e2e": "npm run build && playwright test",
+    "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort",
+    "sync:warden": "node tools/sync-warden.mjs",
+    "check": "npm run build && node tools/check-delivery.mjs && node tools/sync-warden.mjs --check && npm run test:warden && npm test"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.11.1",
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.1.4",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1",
+    "vite-plugin-singlefile": "^2.3.0",
+    "vitest": "^4.0.18"
+  }
+}
