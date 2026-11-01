@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.tmp/
+test-results/
+playwright-report/
+*.tsbuildinfo
+.env
+.env.*
+
+art-source/

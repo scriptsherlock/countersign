@@ -1,0 +1,831 @@
+{
+  "art/warden-idle.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nControlled edit of the supplied Warden image. Preserve the exact same approved front-facing character, pose, proportions, geometry, raised tablet, three antenna fins, four dark unlit chest lamps, lighter slate alloy and bright cyan visor/seams. The character design is approved; do not redesign any part.\n\nThis edit changes ONLY the cloak and cutout quality, and adds a small top margin.\nThe cloak in the input is STILL FAR TOO BRIGHT AND OPAQUE. Remove the bright solid turquoise fabric. Replace the same flowing cloak shapes with a barely visible transparent dark cyan veil. The cloak must read as a FAINT GLOW, almost invisible. At least 90–95% of the actual background must show through the cloak, with real low alpha in those pixels, not opaque dark fabric. Cloak colour is subdued desaturated dark cyan-blue, not bright turquoise. The existing bright cyan visor, armour seams, tablet and hover ring remain much brighter and clearer than the cloak. Preserve the original contour and path of each cloak strand while making the entire cloak extremely faint. No bright cloak outlines.\n\nVery smooth clean cloak and body cutout edges. REMOVE ALL random dots, speckles, splashes, isolated particles, jagged glow fragments, grain and noise from the alpha. Clean simple antialiased contours, no granular halos around the tablet or ring either.\n\nLeave exactly about 3% clear transparent canvas above the tallest antenna. Keep the base at the bottom and preserve the same centred 3:4 framing. Solid opaque lighter slate-blue alloy body, bright cyan visor and seams, four chest lamps remain black, one character.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "edit_prompts": [
+      "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nUse case: identity-preserve, controlled edit of the supplied approved warden-idle character.\nInput image 1 is the exact approved character and framing. Edit that image, preserving its character identity and outline: the same front-facing upright pose, same faceted hovering head, three antenna fins, floating angular shoulders, same long tapering hover column, same arm and finger positions, the identical holographic tablet geometry and abstract markings, same four round chest lamps, same ring at the base, and same cloak strand paths. All four round chest lamps MUST remain dark and unlit. No mouth, eyes or eyebrows. Keep palette, line weight, lighting, shape language and level of detail identical to the reference, with ONLY these requested adjustments:\n\n1. CLOAK: make the cloak much more transparent AND much dimmer. It must be a faint cyan glow behind the opaque body, not bright solid turquoise fabric. The background should show clearly through every cloak strand. Aim for only 8–15 percent opacity across the translucent strands, with very restrained slightly brighter clean edges. Darken its emitted cyan light as well as reducing alpha. The cloak must be visibly much fainter than the visor, armour seams, tablet and hover ring. Preserve the original long flowing strand shapes.\n2. BODY: lighten the alloy armour midtones into the lighter slate-blue alloy range #5B6B8C, with broad simple flat facets and clear dark blue shadow planes. Keep the body solid and opaque. Raise body/background contrast enough for the limbs, chest and column to remain immediately readable at 124×168 pixels on dark #171D29.\n3. VISOR AND SEAMS: brighten the existing medium-width horizontal visor and the existing cyan armour seams. Use saturated #3FE3D1 with small warm-white-cyan highlight cores; sharply readable, no thick bloom, no additional seams. Keep every existing unlit chest lamp completely dark.\n4. CUTOUT: smooth clean antialiased cloak and body edges. Remove all stray specks, scattered light particles, granular halos, fuzzy fringes and isolated pixels. Large clean colour shapes and smooth translucent cloak regions that compress efficiently. No background, no shadow plate and no fake checkerboard.\n5. MARGIN: leave about 3% of the full canvas height completely transparent above the tallest antenna, with the full base still at the bottom edge. Preserve the same centred 3:4 portrait framing and proportions; only the tiny uniform scale adjustment needed for this top margin is allowed. Nothing cropped.\n\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. Target master 720×960 PNG with genuine alpha; final shipped 480×640 WebP with alpha. One character only. The left hand remains lowered and the right hand remains holding the same tablet as in the reference.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+      "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nControlled edit of the supplied Warden image. Preserve the exact same approved front-facing character, pose, proportions, geometry, raised tablet, three antenna fins, four dark unlit chest lamps, lighter slate alloy and bright cyan visor/seams. The character design is approved; do not redesign any part.\n\nThis edit changes ONLY the cloak and cutout quality, and adds a small top margin.\nThe cloak in the input is STILL FAR TOO BRIGHT AND OPAQUE. Remove the bright solid turquoise fabric. Replace the same flowing cloak shapes with a barely visible transparent dark cyan veil. The cloak must read as a FAINT GLOW, almost invisible. At least 90–95% of the actual background must show through the cloak, with real low alpha in those pixels, not opaque dark fabric. Cloak colour is subdued desaturated dark cyan-blue, not bright turquoise. The existing bright cyan visor, armour seams, tablet and hover ring remain much brighter and clearer than the cloak. Preserve the original contour and path of each cloak strand while making the entire cloak extremely faint. No bright cloak outlines.\n\nVery smooth clean cloak and body cutout edges. REMOVE ALL random dots, speckles, splashes, isolated particles, jagged glow fragments, grain and noise from the alpha. Clean simple antialiased contours, no granular halos around the tablet or ring either.\n\nLeave exactly about 3% clear transparent canvas above the tallest antenna. Keep the base at the bottom and preserve the same centred 3:4 framing. Solid opaque lighter slate-blue alloy body, bright cyan visor and seams, four chest lamps remain black, one character.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet."
+    ],
+    "processing": "Edited from approved warden-idle with the built-in image tool. Alpha cutout smoothed; isolated specks removed; cloak alpha normalised to a smooth faint veil (24/255 in shipped WebP) with subdued cyan colour; opaque armour retained; 3% top margin and bottom baseline set. Master 720x960 PNG; shipped 480x640 WebP quality 75, method 5. Exact-size previews on #171D29.",
+    "date": "2026-11-01"
+  },
+  "art/scene-gate.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nUse case: illustration-story.\nAsset: scene-gate, production background illustration for Countersign.\nA vast security gate seen from the front, inside a dark machine hall. Three heavy concentric arches, a polished floor with a hard horizon line, and one thin strip of paper tape running across the top of the frame from left to right. The centre of the arch is empty.\nTechnical target: 1920×1080 PNG master, 16:9 landscape, to be shipped at 1600×900. Opaque background. No people or robots. This scene sits behind dialogue: keep at least 70% of the image dark Midnight #111A4D and City blue #1E2C73, calm and readable. Characters will be composited over the left third, and a dialogue box covers the bottom-right. Put visual interest in the top and centre and leave the left third and bottom-right calm and dark. Three clearly distinct monumental nested arches, with an empty dark central opening. A single very thin warm off-white paper tape crosses near the very top edge horizontally, with no writing or marks.\nPalette: Midnight #111A4D and City blue #1E2C73 dominate; restrained Synthetic violet #7C4DFF in shadows, Signal teal #3FE3D1 on sparse light sources, small Warning amber #FFBC3D lamps, Warm white #FFF4E0 on the thin paper tape. Clean architectural shapes and smooth gradients, elegant layered depth, no noise, no fine hatching, no dense luminous ornament.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01"
+  },
+  "art/warden-matched.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1: approved Warden character, palette and finish. Reference image 2: approved gate scene, environment palette and lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nPalette: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF, Signal teal #3FE3D1, Warning amber #FFBC3D, Warm white #FFF4E0. Clean large shapes and smooth gradients; no noise or fine hatching.\n\nControlled edit of image 1, approved Warden. Retain exactly the same character design, proportions, front view, central placement, 3% top margin, same head position and same bottom baseline. Lighter slate-blue alloy, bright cyan #3FE3D1 seams and visor, four chest lamps always dark and unlit. Same three antenna fins, floating faceted head, angular floating shoulders, narrow chest, single tapered hover column and ring, and holographic tablet projected beside one hand. The long cloak must stay extremely faint, smooth and translucent, around 9% opacity, as in the reference; never bright fabric. No mouth, eyes or eyebrows. Body nearly identical to the reference; change ONLY the pose details requested below. Readable at 124×168 on #171D29.\nPose: thin narrow band of cyan light for a visor, leaning slightly forward. This is a rule-match state, not a facial emotion.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. Master 720×960 PNG; shipped 480×640 with genuine alpha. Keep about 3% clear margin above the highest point. No stray specks or granular halos; smooth clean alpha edges. One character.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png"
+    ],
+    "processing": {
+      "quality": 76,
+      "alpha_processing": "alpha (0, 24, 128, 255)",
+      "bytes": 21462,
+      "name": "warden-matched",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ]
+    },
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-cd6433f5-a68b-4204-8d5f-1d0dcaaa02ee.png"
+  },
+  "art/adeyemi-neutral.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1: approved Warden character, palette and finish. Reference image 2: approved gate scene, environment palette and lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nPalette: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF, Signal teal #3FE3D1, Warning amber #FFBC3D, Warm white #FFF4E0. Clean large shapes and smooth gradients; no noise or fine hatching.\n\nSupervisor Adeyemi: a person in their 50s, tall and narrow, androgynous, with dark brown skin. Warm lamp light on the face. Warm white and amber accents. Close-cropped hair with one grey streak. Reading glasses on a chain, pushed down the nose. A long plain coat over a shirt and tie. Holding a plain paper cup of tea. Bust to mid-thigh, facing slightly to the right. Dry, patient, kind. A warm real person, not a caricature. Natural dark brown skin is required; cool navy coat, cream shirt, simple tie, warm amber light. Mid-thigh hem at the bottom; head entirely in frame with about 3% top margin.\nExpression: calm, level gaze. Use a dignified naturalistic stylised face with ordinary human proportions and subtle facial expression. Not a 3D render. Broad clean shapes consistent with the references, no fine facial texture.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. Master 720×960 PNG; shipped 480×640 with genuine alpha. Keep about 3% clear margin above the highest point. No stray specks or granular halos; smooth clean alpha edges. One character.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png"
+    ],
+    "processing": {
+      "quality": 78,
+      "alpha_processing": "alpha (0, 64, 128, 192, 255)",
+      "bytes": 21902,
+      "name": "adeyemi-neutral",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ]
+    },
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-bf9381b4-4ed7-48de-8896-a21131e112e1.png",
+    "framing": "Original generation cropped to the specified head-to-mid-thigh portrait before use as the canonical reference for the four other expressions."
+  },
+  "art/warden-answered.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1: approved Warden character, palette and finish. Reference image 2: approved gate scene, environment palette and lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nPalette: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF, Signal teal #3FE3D1, Warning amber #FFBC3D, Warm white #FFF4E0. Clean large shapes and smooth gradients; no noise or fine hatching.\n\nControlled edit of image 1, approved Warden. Retain exactly the same character design, proportions, front view, central placement, 3% top margin, same head position and same bottom baseline. Lighter slate-blue alloy, bright cyan #3FE3D1 seams and visor, four chest lamps always dark and unlit. Same three antenna fins, floating faceted head, angular floating shoulders, narrow chest, single tapered hover column and ring, and holographic tablet projected beside one hand. The long cloak must stay extremely faint, smooth and translucent, around 9% opacity, as in the reference; never bright fabric. No mouth, eyes or eyebrows. Body nearly identical to the reference; change ONLY the pose details requested below. Readable at 124×168 on #171D29.\nPose: Medium horizontal band of cyan light for the visor. Relaxed upright posture, one arm slightly lowered compared with the idle reference. Keep the tablet readable.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. Master 720×960 PNG; shipped 480×640 with genuine alpha. Keep about 3% clear margin above the highest point. No stray specks or granular halos; smooth clean alpha edges. One character.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png"
+    ],
+    "processing": {
+      "quality": 78,
+      "alpha_processing": "alpha (0, 24, 128, 255)",
+      "bytes": 22198,
+      "name": "warden-answered",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ]
+    },
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-1e0f082d-cac3-4606-a849-7bddacc3ebfa.png"
+  },
+  "art/warden-missed.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1: approved Warden character, palette and finish. Reference image 2: approved gate scene, environment palette and lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nPalette: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF, Signal teal #3FE3D1, Warning amber #FFBC3D, Warm white #FFF4E0. Clean large shapes and smooth gradients; no noise or fine hatching.\n\nControlled edit of image 1, approved Warden. Retain exactly the same character design, proportions, front view, central placement, 3% top margin, same head position and same bottom baseline. Lighter slate-blue alloy, bright cyan #3FE3D1 seams and visor, four chest lamps always dark and unlit. Same three antenna fins, floating faceted head, angular floating shoulders, narrow chest, single tapered hover column and ring, and holographic tablet projected beside one hand. The long cloak must stay extremely faint, smooth and translucent, around 9% opacity, as in the reference; never bright fabric. No mouth, eyes or eyebrows. Body nearly identical to the reference; change ONLY the pose details requested below. Readable at 124×168 on #171D29.\nPose: Very wide and visibly tall band of visor light turned bright pink #FF5A8A, rocked back a little as if a check failed. Only the visor changes to pink; all existing armour seams, tablet and ring stay cyan. No emotional face.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. Master 720×960 PNG; shipped 480×640 with genuine alpha. Keep about 3% clear margin above the highest point. No stray specks or granular halos; smooth clean alpha edges. One character.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png"
+    ],
+    "processing": {
+      "quality": 78,
+      "alpha_processing": "alpha (0, 24, 128, 255)",
+      "bytes": 22232,
+      "name": "warden-missed",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ]
+    },
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-a7ff4feb-714f-4368-82c8-877634f9b39c.png"
+  },
+  "art/warden-stopped.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1: approved Warden character, palette and finish. Reference image 2: approved gate scene, environment palette and lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nPalette: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF, Signal teal #3FE3D1, Warning amber #FFBC3D, Warm white #FFF4E0. Clean large shapes and smooth gradients; no noise or fine hatching.\n\nControlled edit of image 1, approved Warden. Retain exactly the same character design, proportions, front view, central placement, 3% top margin, same head position and same bottom baseline. Lighter slate-blue alloy, bright cyan #3FE3D1 seams and visor, four chest lamps always dark and unlit. Same three antenna fins, floating faceted head, angular floating shoulders, narrow chest, single tapered hover column and ring, and holographic tablet projected beside one hand. The long cloak must stay extremely faint, smooth and translucent, around 9% opacity, as in the reference; never bright fabric. No mouth, eyes or eyebrows. Body nearly identical to the reference; change ONLY the pose details requested below. Readable at 124×168 on #171D29.\nPose: Thin narrow horizontal band of cyan visor light. Raise the empty hand (the character's left hand, viewer-left) flat with open palm facing the viewer, like a stop sign. The right hand continues holding the holographic tablet in its usual position. Precisely two arms and two hands; no duplicate lowered hand.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. Master 720×960 PNG; shipped 480×640 with genuine alpha. Keep about 3% clear margin above the highest point. No stray specks or granular halos; smooth clean alpha edges. One character.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png"
+    ],
+    "processing": {
+      "quality": 76,
+      "alpha_processing": "alpha (0, 24, 128, 255)",
+      "bytes": 21742,
+      "name": "warden-stopped",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ]
+    },
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-f7355752-912b-4f02-a332-bbb662916435.png"
+  },
+  "art/adeyemi-suspicious.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1: approved Warden character, palette and finish. Reference image 2: approved gate scene, environment palette and lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nPalette: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF, Signal teal #3FE3D1, Warning amber #FFBC3D, Warm white #FFF4E0. Clean large shapes and smooth gradients; no noise or fine hatching.\n\nInput image 3 is the canonical Adeyemi neutral portrait, the identity and framing reference. Preserve exactly that person's face, skin, close-cropped grey-streaked hair, age, androgynous features, outfit, cup, posture, three-quarter facing and bust-to-mid-thigh portrait crop. Body nearly identical; change only the expression and the explicitly requested glasses/hand detail. Do not invent full legs or feet: this asset is a bust-to-mid-thigh portrait ending at the reference's exact thigh level.\nSupervisor Adeyemi: a person in their 50s, tall and narrow, androgynous, with dark brown skin. Warm lamp light on the face. Warm white and amber accents. Close-cropped hair with one grey streak. Reading glasses on a chain, pushed down the nose. A long plain coat over a shirt and tie. Holding a plain paper cup of tea. Bust to mid-thigh, facing slightly to the right. Dry, patient, kind. A warm real person, not a caricature. Natural dark brown skin is required; cool navy coat, cream shirt, simple tie, warm amber light. Mid-thigh hem at the bottom; head entirely in frame with about 3% top margin.\nExpression: One eyebrow raised, looking over the glasses. Subtle dry suspicion; neither angry nor exaggerated.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. This refers to the complete bust-to-mid-thigh portrait, not a full standing body. 720×960 PNG master with alpha, 480×640 shipped. Same head position, same scale and same mid-thigh bottom baseline as image 3.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png",
+      "art-source/adeyemi-neutral.png"
+    ],
+    "processing": {
+      "quality": 76,
+      "alpha_processing": "alpha (0, 64, 128, 192, 255)",
+      "bytes": 21374,
+      "name": "adeyemi-suspicious",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ]
+    },
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-a9a9d9e2-8eec-45b1-bbfa-02cc1e82d802.png"
+  },
+  "art/adeyemi-amused.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1: approved Warden character, palette and finish. Reference image 2: approved gate scene, environment palette and lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nPalette: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF, Signal teal #3FE3D1, Warning amber #FFBC3D, Warm white #FFF4E0. Clean large shapes and smooth gradients; no noise or fine hatching.\n\nInput image 3 is the canonical Adeyemi neutral portrait, the identity and framing reference. Preserve exactly that person's face, skin, close-cropped grey-streaked hair, age, androgynous features, outfit, cup, posture, three-quarter facing and bust-to-mid-thigh portrait crop. Body nearly identical; change only the expression and the explicitly requested glasses/hand detail. Do not invent full legs or feet: this asset is a bust-to-mid-thigh portrait ending at the reference's exact thigh level.\nSupervisor Adeyemi: a person in their 50s, tall and narrow, androgynous, with dark brown skin. Warm lamp light on the face. Warm white and amber accents. Close-cropped hair with one grey streak. Reading glasses on a chain, pushed down the nose. A long plain coat over a shirt and tie. Holding a plain paper cup of tea. Bust to mid-thigh, facing slightly to the right. Dry, patient, kind. A warm real person, not a caricature. Natural dark brown skin is required; cool navy coat, cream shirt, simple tie, warm amber light. Mid-thigh hem at the bottom; head entirely in frame with about 3% top margin.\nExpression: Small dry smile. Understated amusement.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. This refers to the complete bust-to-mid-thigh portrait, not a full standing body. 720×960 PNG master with alpha, 480×640 shipped. Same head position, same scale and same mid-thigh bottom baseline as image 3.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png",
+      "art-source/adeyemi-neutral.png"
+    ],
+    "processing": {
+      "quality": 78,
+      "alpha_processing": "alpha (0, 64, 128, 192, 255)",
+      "bytes": 22366,
+      "name": "adeyemi-amused",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ]
+    },
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-c6d28ddf-522e-4763-825f-0da6b87810d2.png"
+  },
+  "art/adeyemi-surprised.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1: approved Warden character, palette and finish. Reference image 2: approved gate scene, environment palette and lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nPalette: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF, Signal teal #3FE3D1, Warning amber #FFBC3D, Warm white #FFF4E0. Clean large shapes and smooth gradients; no noise or fine hatching.\n\nInput image 3 is the canonical Adeyemi neutral portrait, the identity and framing reference. Preserve exactly that person's face, skin, close-cropped grey-streaked hair, age, androgynous features, outfit, cup, posture, three-quarter facing and bust-to-mid-thigh portrait crop. Body nearly identical; change only the expression and the explicitly requested glasses/hand detail. Do not invent full legs or feet: this asset is a bust-to-mid-thigh portrait ending at the reference's exact thigh level.\nSupervisor Adeyemi: a person in their 50s, tall and narrow, androgynous, with dark brown skin. Warm lamp light on the face. Warm white and amber accents. Close-cropped hair with one grey streak. Reading glasses on a chain, pushed down the nose. A long plain coat over a shirt and tie. Holding a plain paper cup of tea. Bust to mid-thigh, facing slightly to the right. Dry, patient, kind. A warm real person, not a caricature. Natural dark brown skin is required; cool navy coat, cream shirt, simple tie, warm amber light. Mid-thigh hem at the bottom; head entirely in frame with about 3% top margin.\nExpression: Eyebrows up, mouth slightly open. Small natural surprise.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. This refers to the complete bust-to-mid-thigh portrait, not a full standing body. 720×960 PNG master with alpha, 480×640 shipped. Same head position, same scale and same mid-thigh bottom baseline as image 3.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png",
+      "art-source/adeyemi-neutral.png"
+    ],
+    "processing": {
+      "quality": 76,
+      "alpha_processing": "alpha (0, 64, 128, 192, 255)",
+      "bytes": 21236,
+      "name": "adeyemi-surprised",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ]
+    },
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-687fac8b-1b32-44f0-8986-e9883c71bab5.png"
+  },
+  "art/adeyemi-alarmed.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1: approved Warden character, palette and finish. Reference image 2: approved gate scene, environment palette and lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nPalette: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF, Signal teal #3FE3D1, Warning amber #FFBC3D, Warm white #FFF4E0. Clean large shapes and smooth gradients; no noise or fine hatching.\n\nInput image 3 is the canonical Adeyemi neutral portrait, the identity and framing reference. Preserve exactly that person's face, skin, close-cropped grey-streaked hair, age, androgynous features, outfit, cup, posture, three-quarter facing and bust-to-mid-thigh portrait crop. Body nearly identical; change only the expression and the explicitly requested glasses/hand detail. Do not invent full legs or feet: this asset is a bust-to-mid-thigh portrait ending at the reference's exact thigh level.\nSupervisor Adeyemi: a person in their 50s, tall and narrow, androgynous, with dark brown skin. Warm lamp light on the face. Warm white and amber accents. Close-cropped hair with one grey streak. Reading glasses on a chain, pushed down the nose. A long plain coat over a shirt and tie. Holding a plain paper cup of tea. Bust to mid-thigh, facing slightly to the right. Dry, patient, kind. A warm real person, not a caricature. Natural dark brown skin is required; cool navy coat, cream shirt, simple tie, warm amber light. Mid-thigh hem at the bottom; head entirely in frame with about 3% top margin.\nExpression: Glasses pulled off the face and held by their chain/temple in the previously free hand. Serious, concerned expression. Preserve the cup in the other hand, exactly two hands, no glasses remaining on the nose.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. This refers to the complete bust-to-mid-thigh portrait, not a full standing body. 720×960 PNG master with alpha, 480×640 shipped. Same head position, same scale and same mid-thigh bottom baseline as image 3.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png",
+      "art-source/adeyemi-neutral.png"
+    ],
+    "processing": {
+      "quality": 76,
+      "alpha_processing": "alpha (0, 64, 128, 192, 255)",
+      "bytes": 22332,
+      "name": "adeyemi-alarmed",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ]
+    },
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-e4229f5b-da9a-4639-b805-4f8fcea25fae.png"
+  },
+  "art/sparks-idle.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1: approved Warden character, palette and finish. Reference image 2: approved gate scene, environment palette and lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nPalette: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF, Signal teal #3FE3D1, Warning amber #FFBC3D, Warm white #FFF4E0. Clean large shapes and smooth gradients; no noise or fine hatching.\nInput image 3 is the first Sparks concept. Preserve the same friendly round drone, large round cyan eyes and small cyan smile on a dark screen, polished slate alloy facets, short aerial with small amber lamp, and thin cyan orbit ring. Change ONLY the framing and ring size needed to show the ENTIRE character and orbit ring cleanly. No Warden, no background.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge.\nSPECIFIC TECHNICAL EXCEPTION FOR SPARKS: this output MUST be SQUARE 1:1, 512×512 master, NOT a portrait. The generic 3:4 guidance above is overridden by the square drone specification. Show the full orbit ring with at least 10% empty transparent safe margin on BOTH LEFT AND RIGHT; ring must never touch or run beyond the canvas edges. Same 10% margin above antenna and below body. Scale the entire drone down to fit inside the middle 80% of the square. Clean smooth antialiased cutout, restrained glow, no particles, specks or granular edges. Final game asset is 256×256 with alpha.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png"
+    ],
+    "processing": {
+      "quality": 76,
+      "alpha_processing": "native alpha",
+      "bytes": 12206,
+      "name": "sparks-idle",
+      "size": [
+        256,
+        256
+      ],
+      "master_size": [
+        512,
+        512
+      ]
+    },
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-4018edf3-f9d5-4068-9b14-97bd6216c422.png",
+    "edit_reference": "C:/Users/pooja/.codex/generated_images/01a1950d-6af4-7ea1-88b7-6b5c5676248a/exec-caf72876-bceb-410b-909b-16731ea5c10d.png"
+  },
+  "art/turing-portrait.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1: approved Warden character, palette and finish. Reference image 2: approved gate scene, environment palette and lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nPalette: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF, Signal teal #3FE3D1, Warning amber #FFBC3D, Warm white #FFF4E0. Clean large shapes and smooth gradients; no noise or fine hatching.\n\nAlan Turing: a stylised poster illustration of a historical person, in the same neon noir style, like a printed poster hanging in an office. A man in his late 30s, head and shoulders, dark side-parted hair, tweed jacket, shirt and tie, thoughtful expression, slight smile. Draw from this written description only. Do not use or trace any photograph; in particular do not copy the 1951 Elliott & Fry portrait or the £50 banknote design. The two references are style references only, not identity references. No apples anywhere. No text. Simple clearly hand-illustrated human face, not photorealistic, no fine skin texture, no uncanny exaggeration. Opaque Midnight #111A4D background. Warm off-white and amber facial lamp light, cool navy jacket and violet shadows. No actual wall, frame, captions or poster mockup: the entire asset is the poster illustration. Portrait master 660×900 PNG, final 440×600 WebP.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png"
+    ],
+    "processing": {
+      "quality": 80,
+      "alpha_processing": "native alpha",
+      "bytes": 19760,
+      "name": "turing-portrait",
+      "size": [
+        440,
+        600
+      ],
+      "master_size": [
+        660,
+        900
+      ]
+    },
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-f23dc0ce-f073-483f-a895-50ae78b882db.png"
+  },
+  "art/scene-title.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1: approved Warden character, palette and finish. Reference image 2: approved gate scene, environment palette and lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nPalette: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF, Signal teal #3FE3D1, Warning amber #FFBC3D, Warm white #FFF4E0. Clean large shapes and smooth gradients; no noise or fine hatching.\n\nScene background, opaque 16:9, 1920×1080 PNG master and 1600×900 final. Keep at least 70% of the image dark Midnight #111A4D and City blue #1E2C73. Calm dark left third for characters and calm dark bottom-right for a dialogue box; visual interest in the top and centre. No people or robots unless an explicit tiny delivery drone is requested below. No writing, no interface.\nNew Avalon at night, in retro futuristic style. A huge round sun in amber fading to violet, cut by horizontal slats that get thicker towards the bottom, set low on the right. A single very thin radio tower stands in front of it, and a dark navy city skyline with small lit windows runs across the horizon. Below the horizon, a perspective grid of thin turquoise lines runs towards the viewer. The left 45% of the image stays calm and dark for the title. Keep the amber disc and violet lower slats limited to the right 35% so the whole scene remains mostly dark. No characters.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png"
+    ],
+    "processing": {
+      "quality": 70,
+      "alpha_processing": "native alpha",
+      "bytes": 37668,
+      "name": "scene-title",
+      "size": [
+        1600,
+        900
+      ],
+      "master_size": [
+        1920,
+        1080
+      ]
+    },
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-005cc7c8-aa65-43c5-afb7-9a6bfc9ba66c.png"
+  },
+  "art/scene-bureau.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1: approved Warden character, palette and finish. Reference image 2: approved gate scene, environment palette and lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nPalette: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF, Signal teal #3FE3D1, Warning amber #FFBC3D, Warm white #FFF4E0. Clean large shapes and smooth gradients; no noise or fine hatching.\n\nScene background, opaque 16:9, 1920×1080 PNG master and 1600×900 final. Keep at least 70% of the image dark Midnight #111A4D and City blue #1E2C73. Calm dark left third for characters and calm dark bottom-right for a dialogue box; visual interest in the top and centre. No people or robots unless an explicit tiny delivery drone is requested below. No writing, no interface.\nA dim old intelligence office. Shelves of paper tape reels on the left, a single hanging lamp casting a hard cone of light in the centre, a tall window with the night city on the right. Keep the wall area between the lamp and the window clear, because the game hangs a poster there. Do not generate the poster itself. No people or robots.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png"
+    ],
+    "processing": {
+      "quality": 70,
+      "alpha_processing": "native alpha",
+      "bytes": 51372,
+      "name": "scene-bureau",
+      "size": [
+        1600,
+        900
+      ],
+      "master_size": [
+        1920,
+        1080
+      ]
+    },
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-2f73f48d-44d3-429b-9b96-295993d2a813.png"
+  },
+  "art/scene-desk.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1: approved Warden character, palette and finish. Reference image 2: approved gate scene, environment palette and lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nPalette: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF, Signal teal #3FE3D1, Warning amber #FFBC3D, Warm white #FFF4E0. Clean large shapes and smooth gradients; no noise or fine hatching.\n\nScene background, opaque 16:9, 1920×1080 PNG master and 1600×900 final. Keep at least 70% of the image dark Midnight #111A4D and City blue #1E2C73. Calm dark left third for characters and calm dark bottom-right for a dialogue box; visual interest in the top and centre. No people or robots unless an explicit tiny delivery drone is requested below. No writing, no interface.\nA close view of a desk at night. A lamp pool of light, a stamped document, a rubber stamp, a paper cup, and loose paper tape. Calm and tidy. The document and stamp have only abstract blank stamp shapes: no actual letters, numbers, words or writing. All objects grouped quietly in the centre and upper area. No people or robots.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png"
+    ],
+    "processing": {
+      "quality": 64,
+      "alpha_processing": "native alpha",
+      "bytes": 55588,
+      "name": "scene-desk",
+      "size": [
+        1600,
+        900
+      ],
+      "master_size": [
+        1920,
+        1080
+      ]
+    },
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-66c1c3c0-dc48-4212-be47-c78549487732.png"
+  },
+  "art/scene-hub.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1: approved Warden character, palette and finish. Reference image 2: approved gate scene, environment palette and lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nPalette: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF, Signal teal #3FE3D1, Warning amber #FFBC3D, Warm white #FFF4E0. Clean large shapes and smooth gradients; no noise or fine hatching.\n\nScene background, opaque 16:9, 1920×1080 PNG master and 1600×900 final. Keep at least 70% of the image dark Midnight #111A4D and City blue #1E2C73. Calm dark left third for characters and calm dark bottom-right for a dialogue box; visual interest in the top and centre. No people or robots unless an explicit tiny delivery drone is requested below. No writing, no interface.\nA hidden hand-built communications den. Mismatched cables looping across the walls, low home-made server racks along the floor each with one tiny lit lamp. It should feel lived in, curious rather than threatening. Empty calm space in the centre and on the left for characters; restrained turquoise and amber lamps. No people or robots.\n\nControlled correction of input image 3, the first den composition. Keep the same layout, empty left half, dark floor, cables and makeshift cloth canopy. REMOVE all holographic screens and display panels from the desk; leave the tabletop empty except for a plain cup. Remove the tall server towers and replace them with several LOW homemade server racks along the floor. Every rack must have exactly ONE tiny indicator lamp; remove all other lamps, glowing display slots and multi-light rows on the equipment. Keep only one small hanging warm amber work lamp for the den. No interface panels, no futuristic desk screens, no lettering. The space should feel modest, curious and lived-in, with broad calm dark shapes.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png"
+    ],
+    "processing": {
+      "quality": 66,
+      "alpha_processing": "native alpha",
+      "bytes": 55838,
+      "name": "scene-hub",
+      "size": [
+        1600,
+        900
+      ],
+      "master_size": [
+        1920,
+        1080
+      ]
+    },
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-14ca124c-f26e-4a0f-80f1-9ad9ce7114e7.png",
+    "edit_reference": "C:/Users/pooja/.codex/generated_images/01a1950d-6af4-7ea1-88b7-6b5c5676248a/exec-9277c3ee-8883-4f9d-b155-50357f52eec5.png"
+  },
+  "art/scene-skyline.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1: approved Warden character, palette and finish. Reference image 2: approved gate scene, environment palette and lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nPalette: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF, Signal teal #3FE3D1, Warning amber #FFBC3D, Warm white #FFF4E0. Clean large shapes and smooth gradients; no noise or fine hatching.\n\nScene background, opaque 16:9, 1920×1080 PNG master and 1600×900 final. Keep at least 70% of the image dark Midnight #111A4D and City blue #1E2C73. Calm dark left third for characters and calm dark bottom-right for a dialogue box; visual interest in the top and centre. No people or robots unless an explicit tiny delivery drone is requested below. No writing, no interface.\nNew Avalon on a rainy night, seen from street level. Tall navy buildings with lit windows and a few turquoise and amber signs with no writing on them, a very tall radio tower in the centre, and a small delivery robot waiting at a road crossing. Light rain drawn as a few sparse lines. The tiny delivery robot is the single scene-specific exception to the no-robot background rule; use a small simple round courier drone, not a duplicate Warden. No people. No letter-like signage.\n\nInput image 3 is the first skyline composition. Keep its city, central thin radio tower and single tiny courier waiting at the crossing, but simplify the finish to match the approved gate's calm clean shapes. Broad flat navy building planes, a few large illuminated windows and blank cyan/amber signs only, no dense tiny window patterns. Rain is just six sparse fine straight lines. Smooth dark floor with a few broad calm reflections, no ripples, no mottling, no grain, no fine texture. Remove tiny foliage and architectural clutter. Preserve the cinematic depth and strong silhouettes, with at least 70% dark navy/city-blue area. This final 1600×900 scene must compress to 55 KB around WebP quality 70; use clean simple shapes rather than high-frequency detail.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png"
+    ],
+    "processing": {
+      "quality": 70,
+      "alpha_processing": "0.9px spatial prefilter",
+      "bytes": 51608,
+      "name": "scene-skyline",
+      "size": [
+        1600,
+        900
+      ],
+      "master_size": [
+        1920,
+        1080
+      ]
+    },
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-b5a265ab-f6cc-44b3-99a7-1453c4d75feb.png",
+    "edit_reference": "C:/Users/pooja/.codex/generated_images/01a1950d-6af4-7ea1-88b7-6b5c5676248a/exec-db23faec-4d32-463a-b44c-9313a8258b93.png"
+  },
+  "art/sift-idle.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1 is the approved Warden; use its hand-illustrated broad slate-alloy facets, clean edges and legible light seams, not its body design. Reference image 2 is the approved gate; use its palette and side lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nBase colours: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF shadows, warm white #FFF4E0, alloy #262F47 to #5B6B8C. The new robot's explicitly specified signature light colour is an authorised extension of that palette and must replace Warden's cyan in all luminous robot parts. Light enough slate alloy body to read at 124×168 on #171D29. Smooth gradients and large graphic facets, restrained bloom only on actual lights. No grain, surface texture, specks, floating particles or granular alpha fringes. This is a single cut-out character, with no floor, scenery, labels or mockup.\n\nSift: a wide, LOW hovering robot in dark slate alloy with unmistakable AMBER #FFB020 light, like a futuristic customs scanner. A wedge-shaped head with a medium horizontal band of amber light sits on a broad chassis. The chest is a large open panel filled with a glowing grid of laser lines, its sieve. Use a simple sparse 4-by-5 grid with clear bold amber lines that survives small display. A floating stamp emitter hovers on EACH side INSTEAD OF arms: exactly two detached sleek stamp emitters, no humanoid arms or legs. Two distinct hover pads glow amber beneath it. Fussy, squared-up posture. Broad, short horizontal silhouette, much wider than tall, completely different in outline from the tall Warden. Its head, seams, laser grid, stamp emitters and two hover pads are all amber, not cyan. Do not build a standing android or a humanoid chest. Keep the side emitters close enough to the broad chassis to form one readable small silhouette.\nIdle state: medium horizontal visor band in the robot's signature colour, upright and calm. Keep the body design simple and legible.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. 720×960 PNG master, final 480×640 WebP with alpha, maximum 22 KB at quality about 80. Complete silhouette and all rings, emitters or ribbons visible with clear safe side margins. Nothing cropped. Do not stretch the character to fill the portrait: preserve its distinctive proportions. One robot only. A visor band, not a face: no separate eyes, eyebrows or mouth.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png"
+    ],
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-59483c87-5674-4af2-bab4-0face9ca32d1.png",
+    "processing": {
+      "quality": 80,
+      "alpha_processing": "six alpha levels",
+      "bytes": 18634,
+      "name": "sift-idle",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ],
+      "framing": "Same central-body vertical anchors and bottom baseline as the canonical idle; uniform scale only."
+    }
+  },
+  "art/ledger-idle.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1 is the approved Warden; use its hand-illustrated broad slate-alloy facets, clean edges and legible light seams, not its body design. Reference image 2 is the approved gate; use its palette and side lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nBase colours: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF shadows, warm white #FFF4E0, alloy #262F47 to #5B6B8C. The new robot's explicitly specified signature light colour is an authorised extension of that palette and must replace Warden's cyan in all luminous robot parts. Light enough slate alloy body to read at 124×168 on #171D29. Smooth gradients and large graphic facets, restrained bloom only on actual lights. No grain, surface texture, specks, floating particles or granular alpha fringes. This is a single cut-out character, with no floor, scenery, labels or mockup.\n\nLedger: a SPHERE of dark slate alloy with unmistakable MATRIX GREEN #00E676 light, hovering with NO LEGS. A round OPEN core at the front glows with falling green abstract dash-shaped marks, like a computational stream; the marks must NOT form real digits, numbers or letters. A medium horizontal green visor band sits above the core. Exactly TWO thin green orbit rings circle it, carrying a few small glowing beads like an abacus made of light. Bright, pleased tilt communicated by its physical angle, never a face. Clearly spherical central body and complete elliptical orbit rings; no head on a neck, no humanoid torso and no legs. Very different in outline from Warden and Sift. All light parts are green, not cyan. Bead count and ring detail sparse enough to survive 124×168. The entire outer orbit ring must fit inside the transparent canvas with generous side margins.\nIdle state: medium horizontal visor band in the robot's signature colour, upright and calm. Keep the body design simple and legible.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. 720×960 PNG master, final 480×640 WebP with alpha, maximum 22 KB at quality about 80. Complete silhouette and all rings, emitters or ribbons visible with clear safe side margins. Nothing cropped. Do not stretch the character to fill the portrait: preserve its distinctive proportions. One robot only. A visor band, not a face: no separate eyes, eyebrows or mouth.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png"
+    ],
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-1b88d00a-6668-4d75-a0b9-6e930a70fa43.png",
+    "processing": {
+      "quality": 78,
+      "alpha_processing": "six alpha levels",
+      "bytes": 21462,
+      "name": "ledger-idle",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ],
+      "framing": "Same central-body vertical anchors and bottom baseline as the canonical idle; uniform scale only."
+    }
+  },
+  "art/muse-idle.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1 is the approved Warden; use its hand-illustrated broad slate-alloy facets, clean edges and legible light seams, not its body design. Reference image 2 is the approved gate; use its palette and side lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nBase colours: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF shadows, warm white #FFF4E0, alloy #262F47 to #5B6B8C. The new robot's explicitly specified signature light colour is an authorised extension of that palette and must replace Warden's cyan in all luminous robot parts. Light enough slate alloy body to read at 124×168 on #171D29. Smooth gradients and large graphic facets, restrained bloom only on actual lights. No grain, surface texture, specks, floating particles or granular alpha fringes. This is a single cut-out character, with no floor, scenery, labels or mockup.\n\nMuse: a tall, slender android in dark slate alloy with unmistakable DEEP MAGENTA #FF3DB8 light, elegant and calm. A smooth oval head with a SOFT medium horizontal magenta visor band, under a floating CRESCENT halo. No human face, eyes, eyebrows or mouth. Long tapering armour plates fall like a GOWN, simple elegant layers rather than legs or Warden's pointed hover column. A ribbon of magenta light loops around the body, and Muse reads from the ribbon. No writing or numbers on the ribbon. Two slim alloy arms rest gently near the ribbon. Gentle swaying posture and narrow graceful silhouette, clearly distinct from Warden. All luminous visor, seams, crescent and ribbon are magenta, not cyan. The ribbon is restrained light with genuine translucency, not thick opaque bright fabric. Keep the gown silhouette clean and the whole crescent and ribbon inside the frame.\nIdle state: medium horizontal visor band in the robot's signature colour, upright and calm. Keep the body design simple and legible.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. 720×960 PNG master, final 480×640 WebP with alpha, maximum 22 KB at quality about 80. Complete silhouette and all rings, emitters or ribbons visible with clear safe side margins. Nothing cropped. Do not stretch the character to fill the portrait: preserve its distinctive proportions. One robot only. A visor band, not a face: no separate eyes, eyebrows or mouth.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png"
+    ],
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-6a0f0c2f-f89d-40b9-b204-22f2031a4595.png",
+    "processing": {
+      "quality": 76,
+      "alpha_processing": "six alpha levels",
+      "bytes": 22006,
+      "name": "muse-idle",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ],
+      "framing": "Same central-body vertical anchors and bottom baseline as the canonical idle; uniform scale only."
+    }
+  },
+  "art/sift-matched.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1 is the approved Warden; use its hand-illustrated broad slate-alloy facets, clean edges and legible light seams, not its body design. Reference image 2 is the approved gate; use its palette and side lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nBase colours: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF shadows, warm white #FFF4E0, alloy #262F47 to #5B6B8C. The new robot's explicitly specified signature light colour is an authorised extension of that palette and must replace Warden's cyan in all luminous robot parts. Light enough slate alloy body to read at 124×168 on #171D29. Smooth gradients and large graphic facets, restrained bloom only on actual lights. No grain, surface texture, specks, floating particles or granular alpha fringes. This is a single cut-out character, with no floor, scenery, labels or mockup.\nInput image 3 is the canonical sift-idle portrait, the EXACT identity and framing reference for this edit. Preserve the same body design, proportions, camera, silhouette scale, horizontal centre, head position and bottom baseline. The body stays nearly identical; change only the state described below. Do not enlarge or re-centre the character within its portrait; preserve the idle reference's transparent margins, including the large top margin for wide low robots.\nSift: a wide, LOW hovering robot in dark slate alloy with unmistakable AMBER #FFB020 light, like a futuristic customs scanner. A wedge-shaped head with a horizontal band of amber light sits on a broad chassis. The chest is a large open panel filled with a glowing grid of laser lines, its sieve. Use a simple sparse 4-by-5 grid with clear bold amber lines that survives small display. A floating stamp emitter hovers on EACH side INSTEAD OF arms: exactly two detached sleek stamp emitters, no humanoid arms or legs. Two distinct hover pads glow amber beneath it. Fussy, squared-up posture. Broad, short horizontal silhouette, much wider than tall, completely different in outline from the tall Warden. Its head, seams, laser grid, stamp emitters and two hover pads are all amber, not cyan. Do not build a standing android or a humanoid chest. Keep the side emitters close enough to the broad chassis to form one readable small silhouette.\nState: Thin narrow amber #FFB020 visor band, about one quarter of the idle band's height. Lean slightly forward as a rule matches. Same wide chassis, laser grid, two pads and two stamp emitters.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. 720×960 PNG master, final 480×640 WebP with alpha, maximum 22 KB at quality about 80. Complete silhouette and all rings, emitters or ribbons visible with clear safe side margins. Nothing cropped. Do not stretch the character to fill the portrait: preserve its distinctive proportions. One robot only. A visor band, not a face: no separate eyes, eyebrows or mouth.\n\nCritical visor geometry: the glowing visor in this state must be a literal THIN SLIT, just a single clean luminous line about 3 pixels tall in the final 480×640 asset. It must be visibly much thinner than the idle's broad light bar. Fill the space above and below this thin slit with opaque dark alloy. Keep the visor at the same eye-line height. No broad luminous bar and no additional eyes.\n\nInput image 4 is the already-generated sift-matched pose. Preserve its exact pose and all body parts, including the emitter positions. Change ONLY its visor from the too-broad bar to the thin slit described above. Images 1–3 are the approved style and idle identity references.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png",
+      "art-source/sift-idle.png"
+    ],
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-2ebb4524-b51b-4fc6-8e0a-50092412488d.png",
+    "processing": {
+      "quality": 80,
+      "alpha_processing": "six alpha levels",
+      "bytes": 20186,
+      "name": "sift-matched",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ],
+      "framing": "Same central-body vertical anchors and bottom baseline as the canonical idle; uniform scale only."
+    },
+    "edit_reference": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-4c317dfc-42c5-4dbf-b1ab-10d8ac8db21e.png"
+  },
+  "art/sift-answered.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1 is the approved Warden; use its hand-illustrated broad slate-alloy facets, clean edges and legible light seams, not its body design. Reference image 2 is the approved gate; use its palette and side lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nBase colours: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF shadows, warm white #FFF4E0, alloy #262F47 to #5B6B8C. The new robot's explicitly specified signature light colour is an authorised extension of that palette and must replace Warden's cyan in all luminous robot parts. Light enough slate alloy body to read at 124×168 on #171D29. Smooth gradients and large graphic facets, restrained bloom only on actual lights. No grain, surface texture, specks, floating particles or granular alpha fringes. This is a single cut-out character, with no floor, scenery, labels or mockup.\nInput image 3 is the canonical sift-idle portrait, the EXACT identity and framing reference for this edit. Preserve the same body design, proportions, camera, silhouette scale, horizontal centre, head position and bottom baseline. The body stays nearly identical; change only the state described below. Do not enlarge or re-centre the character within its portrait; preserve the idle reference's transparent margins, including the large top margin for wide low robots.\nSift: a wide, LOW hovering robot in dark slate alloy with unmistakable AMBER #FFB020 light, like a futuristic customs scanner. A wedge-shaped head with a medium horizontal band of amber light sits on a broad chassis. The chest is a large open panel filled with a glowing grid of laser lines, its sieve. Use a simple sparse 4-by-5 grid with clear bold amber lines that survives small display. A floating stamp emitter hovers on EACH side INSTEAD OF arms: exactly two detached sleek stamp emitters, no humanoid arms or legs. Two distinct hover pads glow amber beneath it. Fussy, squared-up posture. Broad, short horizontal silhouette, much wider than tall, completely different in outline from the tall Warden. Its head, seams, laser grid, stamp emitters and two hover pads are all amber, not cyan. Do not build a standing android or a humanoid chest. Keep the side emitters close enough to the broad chassis to form one readable small silhouette.\nState: Medium amber visor band, relaxed squared-up hover posture; viewer-left floating stamp emitter slightly lowered, as the equivalent of lowering one arm. No new physical arms.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. 720×960 PNG master, final 480×640 WebP with alpha, maximum 22 KB at quality about 80. Complete silhouette and all rings, emitters or ribbons visible with clear safe side margins. Nothing cropped. Do not stretch the character to fill the portrait: preserve its distinctive proportions. One robot only. A visor band, not a face: no separate eyes, eyebrows or mouth.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png",
+      "art-source/sift-idle.png"
+    ],
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-b8243e7b-c3c1-484f-8fbf-1ed262a997a3.png",
+    "processing": {
+      "quality": 80,
+      "alpha_processing": "six alpha levels",
+      "bytes": 18890,
+      "name": "sift-answered",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ],
+      "framing": "Same central-body vertical anchors and bottom baseline as the canonical idle; uniform scale only."
+    }
+  },
+  "art/sift-missed.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1 is the approved Warden; use its hand-illustrated broad slate-alloy facets, clean edges and legible light seams, not its body design. Reference image 2 is the approved gate; use its palette and side lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nBase colours: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF shadows, warm white #FFF4E0, alloy #262F47 to #5B6B8C. The new robot's explicitly specified signature light colour is an authorised extension of that palette and must replace Warden's cyan in all luminous robot parts. Light enough slate alloy body to read at 124×168 on #171D29. Smooth gradients and large graphic facets, restrained bloom only on actual lights. No grain, surface texture, specks, floating particles or granular alpha fringes. This is a single cut-out character, with no floor, scenery, labels or mockup.\nInput image 3 is the canonical sift-idle portrait, the EXACT identity and framing reference for this edit. Preserve the same body design, proportions, camera, silhouette scale, horizontal centre, head position and bottom baseline. The body stays nearly identical; change only the state described below. Do not enlarge or re-centre the character within its portrait; preserve the idle reference's transparent margins, including the large top margin for wide low robots.\nSift: a wide, LOW hovering robot in dark slate alloy with unmistakable AMBER #FFB020 light, like a futuristic customs scanner. A wedge-shaped head with a medium horizontal band of amber light sits on a broad chassis. The chest is a large open panel filled with a glowing grid of laser lines, its sieve. Use a simple sparse 4-by-5 grid with clear bold amber lines that survives small display. A floating stamp emitter hovers on EACH side INSTEAD OF arms: exactly two detached sleek stamp emitters, no humanoid arms or legs. Two distinct hover pads glow amber beneath it. Fussy, squared-up posture. Broad, short horizontal silhouette, much wider than tall, completely different in outline from the tall Warden. Its head, seams, laser grid, stamp emitters and two hover pads are all amber, not cyan. Do not build a standing android or a humanoid chest. Keep the side emitters close enough to the broad chassis to form one readable small silhouette.\nState: Very wide TALL visor band in bright pink #FF5A8A, at least twice the height of the idle band. Rock the chassis back a little as if a check failed. ONLY the visor turns pink; grid, seams, emitters and hover pads stay amber.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. 720×960 PNG master, final 480×640 WebP with alpha, maximum 22 KB at quality about 80. Complete silhouette and all rings, emitters or ribbons visible with clear safe side margins. Nothing cropped. Do not stretch the character to fill the portrait: preserve its distinctive proportions. One robot only. A visor band, not a face: no separate eyes, eyebrows or mouth.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png",
+      "art-source/sift-idle.png"
+    ],
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-1ae16cc3-e2c9-428e-b6cd-e808d7d1ddbe.png",
+    "processing": {
+      "quality": 80,
+      "alpha_processing": "six alpha levels",
+      "bytes": 20444,
+      "name": "sift-missed",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ],
+      "framing": "Same central-body vertical anchors and bottom baseline as the canonical idle; uniform scale only."
+    }
+  },
+  "art/sift-stopped.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1 is the approved Warden; use its hand-illustrated broad slate-alloy facets, clean edges and legible light seams, not its body design. Reference image 2 is the approved gate; use its palette and side lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nBase colours: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF shadows, warm white #FFF4E0, alloy #262F47 to #5B6B8C. The new robot's explicitly specified signature light colour is an authorised extension of that palette and must replace Warden's cyan in all luminous robot parts. Light enough slate alloy body to read at 124×168 on #171D29. Smooth gradients and large graphic facets, restrained bloom only on actual lights. No grain, surface texture, specks, floating particles or granular alpha fringes. This is a single cut-out character, with no floor, scenery, labels or mockup.\nInput image 3 is the canonical sift-idle portrait, the EXACT identity and framing reference for this edit. Preserve the same body design, proportions, camera, silhouette scale, horizontal centre, head position and bottom baseline. The body stays nearly identical; change only the state described below. Do not enlarge or re-centre the character within its portrait; preserve the idle reference's transparent margins, including the large top margin for wide low robots.\nSift: a wide, LOW hovering robot in dark slate alloy with unmistakable AMBER #FFB020 light, like a futuristic customs scanner. A wedge-shaped head with a horizontal band of amber light sits on a broad chassis. The chest is a large open panel filled with a glowing grid of laser lines, its sieve. Use a simple sparse 4-by-5 grid with clear bold amber lines that survives small display. A floating stamp emitter hovers on EACH side INSTEAD OF arms: exactly two detached sleek stamp emitters, no humanoid arms or legs. Two distinct hover pads glow amber beneath it. Fussy, squared-up posture. Broad, short horizontal silhouette, much wider than tall, completely different in outline from the tall Warden. Its head, seams, laser grid, stamp emitters and two hover pads are all amber, not cyan. Do not build a standing android or a humanoid chest. Keep the side emitters close enough to the broad chassis to form one readable small silhouette.\nState: Thin narrow amber visor band. Raise ONE floating stamp emitter on viewer-left to shoulder/head height and turn its flat emitting surface toward the viewer in a clear STOP gesture, the emitter being Sift's equivalent of an arm. Do not add a humanoid arm or a new hand. The other emitter and both hover pads stay in their original positions. No text or stop-sign icon.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. 720×960 PNG master, final 480×640 WebP with alpha, maximum 22 KB at quality about 80. Complete silhouette and all rings, emitters or ribbons visible with clear safe side margins. Nothing cropped. Do not stretch the character to fill the portrait: preserve its distinctive proportions. One robot only. A visor band, not a face: no separate eyes, eyebrows or mouth.\n\nCritical visor geometry: the glowing visor in this state must be a literal THIN SLIT, just a single clean luminous line about 3 pixels tall in the final 480×640 asset. It must be visibly much thinner than the idle's broad light bar. Fill the space above and below this thin slit with opaque dark alloy. Keep the visor at the same eye-line height. No broad luminous bar and no additional eyes.\n\nInput image 4 is the already-generated sift-stopped pose. Preserve its exact pose and all body parts, including the emitter positions. Change ONLY its visor from the too-broad bar to the thin slit described above. Images 1–3 are the approved style and idle identity references.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png",
+      "art-source/sift-idle.png"
+    ],
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-561bea65-702e-4a91-88f7-41e7051a6f21.png",
+    "processing": {
+      "quality": 80,
+      "alpha_processing": "six alpha levels",
+      "bytes": 20924,
+      "name": "sift-stopped",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ],
+      "framing": "Same central-body vertical anchors and bottom baseline as the canonical idle; uniform scale only."
+    },
+    "edit_reference": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-20d7d471-d5a6-4953-8724-e2f641d883c5.png"
+  },
+  "art/ledger-matched.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1 is the approved Warden; use its hand-illustrated broad slate-alloy facets, clean edges and legible light seams, not its body design. Reference image 2 is the approved gate; use its palette and side lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nBase colours: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF shadows, warm white #FFF4E0, alloy #262F47 to #5B6B8C. The new robot's explicitly specified signature light colour is an authorised extension of that palette and must replace Warden's cyan in all luminous robot parts. Light enough slate alloy body to read at 124×168 on #171D29. Smooth gradients and large graphic facets, restrained bloom only on actual lights. No grain, surface texture, specks, floating particles or granular alpha fringes. This is a single cut-out character, with no floor, scenery, labels or mockup.\nInput image 3 is the canonical ledger-idle portrait, the EXACT identity and framing reference for this edit. Preserve the same body design, proportions, camera, silhouette scale, horizontal centre, head position and bottom baseline. The body stays nearly identical; change only the state described below. Do not enlarge or re-centre the character within its portrait; preserve the idle reference's transparent margins, including the large top margin for wide low robots.\nLedger: a SPHERE of dark slate alloy with unmistakable MATRIX GREEN #00E676 light, hovering with NO LEGS. A round OPEN core at the front glows with falling green abstract dash-shaped marks, like a computational stream; the marks must NOT form real digits, numbers or letters. A horizontal green visor band sits above the core. Exactly TWO thin green orbit rings circle it, carrying a few small glowing beads like an abacus made of light. Bright, pleased tilt communicated by its physical angle, never a face. Clearly spherical central body and complete elliptical orbit rings; no head on a neck, no humanoid torso and no legs. Very different in outline from Warden and Sift. All light parts are green, not cyan. Bead count and ring detail sparse enough to survive 124×168. The entire outer orbit ring must fit inside the transparent canvas with generous side margins.\nState: Thin narrow green #00E676 visor band, about one quarter of the idle band's height. Slight forward physical tilt of the sphere as a rule matches; preserve all other details and both rings.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. 720×960 PNG master, final 480×640 WebP with alpha, maximum 22 KB at quality about 80. Complete silhouette and all rings, emitters or ribbons visible with clear safe side margins. Nothing cropped. Do not stretch the character to fill the portrait: preserve its distinctive proportions. One robot only. A visor band, not a face: no separate eyes, eyebrows or mouth.\n\nCritical visor geometry: the glowing visor in this state must be a literal THIN SLIT, just a single clean luminous line about 3 pixels tall in the final 480×640 asset. It must be visibly much thinner than the idle's broad light bar. Fill the space above and below this thin slit with opaque dark alloy. Keep the visor at the same eye-line height. No broad luminous bar and no additional eyes.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png",
+      "art-source/ledger-idle.png"
+    ],
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-e90ebaae-8d63-42aa-b61d-d91bf148efa4.png",
+    "processing": {
+      "quality": 78,
+      "alpha_processing": "six alpha levels",
+      "bytes": 22290,
+      "name": "ledger-matched",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ],
+      "framing": "Same central-body vertical anchors and bottom baseline as the canonical idle; uniform scale only."
+    }
+  },
+  "art/ledger-answered.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1 is the approved Warden; use its hand-illustrated broad slate-alloy facets, clean edges and legible light seams, not its body design. Reference image 2 is the approved gate; use its palette and side lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nBase colours: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF shadows, warm white #FFF4E0, alloy #262F47 to #5B6B8C. The new robot's explicitly specified signature light colour is an authorised extension of that palette and must replace Warden's cyan in all luminous robot parts. Light enough slate alloy body to read at 124×168 on #171D29. Smooth gradients and large graphic facets, restrained bloom only on actual lights. No grain, surface texture, specks, floating particles or granular alpha fringes. This is a single cut-out character, with no floor, scenery, labels or mockup.\nInput image 3 is the canonical ledger-idle portrait, the EXACT identity and framing reference for this edit. Preserve the same body design, proportions, camera, silhouette scale, horizontal centre, head position and bottom baseline. The body stays nearly identical; change only the state described below. Do not enlarge or re-centre the character within its portrait; preserve the idle reference's transparent margins, including the large top margin for wide low robots.\nLedger: a SPHERE of dark slate alloy with unmistakable MATRIX GREEN #00E676 light, hovering with NO LEGS. A round OPEN core at the front glows with falling green abstract dash-shaped marks, like a computational stream; the marks must NOT form real digits, numbers or letters. A medium horizontal green visor band sits above the core. Exactly TWO thin green orbit rings circle it, carrying a few small glowing beads like an abacus made of light. Bright, pleased tilt communicated by its physical angle, never a face. Clearly spherical central body and complete elliptical orbit rings; no head on a neck, no humanoid torso and no legs. Very different in outline from Warden and Sift. All light parts are green, not cyan. Bead count and ring detail sparse enough to survive 124×168. The entire outer orbit ring must fit inside the transparent canvas with generous side margins.\nState: Medium green visor band, relaxed hover tilt. The viewer-left orbit segment/emitter rests slightly lower, the equivalent of a lowered arm for this otherwise armless sphere. No new physical limbs.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. 720×960 PNG master, final 480×640 WebP with alpha, maximum 22 KB at quality about 80. Complete silhouette and all rings, emitters or ribbons visible with clear safe side margins. Nothing cropped. Do not stretch the character to fill the portrait: preserve its distinctive proportions. One robot only. A visor band, not a face: no separate eyes, eyebrows or mouth.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png",
+      "art-source/ledger-idle.png"
+    ],
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-e1c9a21a-a659-4669-bcb7-040f139c9fef.png",
+    "processing": {
+      "quality": 76,
+      "alpha_processing": "six alpha levels",
+      "bytes": 21528,
+      "name": "ledger-answered",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ],
+      "framing": "Same central-body vertical anchors and bottom baseline as the canonical idle; uniform scale only."
+    }
+  },
+  "art/ledger-missed.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1 is the approved Warden; use its hand-illustrated broad slate-alloy facets, clean edges and legible light seams, not its body design. Reference image 2 is the approved gate; use its palette and side lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nBase colours: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF shadows, warm white #FFF4E0, alloy #262F47 to #5B6B8C. The new robot's explicitly specified signature light colour is an authorised extension of that palette and must replace Warden's cyan in all luminous robot parts. Light enough slate alloy body to read at 124×168 on #171D29. Smooth gradients and large graphic facets, restrained bloom only on actual lights. No grain, surface texture, specks, floating particles or granular alpha fringes. This is a single cut-out character, with no floor, scenery, labels or mockup.\nInput image 3 is the canonical ledger-idle portrait, the EXACT identity and framing reference for this edit. Preserve the same body design, proportions, camera, silhouette scale, horizontal centre, head position and bottom baseline. The body stays nearly identical; change only the state described below. Do not enlarge or re-centre the character within its portrait; preserve the idle reference's transparent margins, including the large top margin for wide low robots.\nLedger: a SPHERE of dark slate alloy with unmistakable MATRIX GREEN #00E676 light, hovering with NO LEGS. A round OPEN core at the front glows with falling green abstract dash-shaped marks, like a computational stream; the marks must NOT form real digits, numbers or letters. A medium horizontal green visor band sits above the core. Exactly TWO thin green orbit rings circle it, carrying a few small glowing beads like an abacus made of light. Bright, pleased tilt communicated by its physical angle, never a face. Clearly spherical central body and complete elliptical orbit rings; no head on a neck, no humanoid torso and no legs. Very different in outline from Warden and Sift. All light parts are green, not cyan. Bead count and ring detail sparse enough to survive 124×168. The entire outer orbit ring must fit inside the transparent canvas with generous side margins.\nState: Very wide TALL visor band in bright pink #FF5A8A, at least twice the idle band's height. Rock the sphere back slightly as if a check failed. ONLY the visor turns pink; core dashes, rings, beads and seams remain Matrix green.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. 720×960 PNG master, final 480×640 WebP with alpha, maximum 22 KB at quality about 80. Complete silhouette and all rings, emitters or ribbons visible with clear safe side margins. Nothing cropped. Do not stretch the character to fill the portrait: preserve its distinctive proportions. One robot only. A visor band, not a face: no separate eyes, eyebrows or mouth.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png",
+      "art-source/ledger-idle.png"
+    ],
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-796d13ec-6d45-4b2a-8d80-aa2d63573b08.png",
+    "processing": {
+      "quality": 80,
+      "alpha_processing": "six alpha levels",
+      "bytes": 22236,
+      "name": "ledger-missed",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ],
+      "framing": "Same central-body vertical anchors and bottom baseline as the canonical idle; uniform scale only."
+    }
+  },
+  "art/ledger-stopped.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1 is the approved Warden; use its hand-illustrated broad slate-alloy facets, clean edges and legible light seams, not its body design. Reference image 2 is the approved gate; use its palette and side lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nBase colours: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF shadows, warm white #FFF4E0, alloy #262F47 to #5B6B8C. The new robot's explicitly specified signature light colour is an authorised extension of that palette and must replace Warden's cyan in all luminous robot parts. Light enough slate alloy body to read at 124×168 on #171D29. Smooth gradients and large graphic facets, restrained bloom only on actual lights. No grain, surface texture, specks, floating particles or granular alpha fringes. This is a single cut-out character, with no floor, scenery, labels or mockup.\nInput image 3 is the canonical ledger-idle portrait, the EXACT identity and framing reference for this edit. Preserve the same body design, proportions, camera, silhouette scale, horizontal centre, head position and bottom baseline. The body stays nearly identical; change only the state described below. Do not enlarge or re-centre the character within its portrait; preserve the idle reference's transparent margins, including the large top margin for wide low robots.\nLedger: a SPHERE of dark slate alloy with unmistakable MATRIX GREEN #00E676 light, hovering with NO LEGS. A round OPEN core at the front glows with falling green abstract dash-shaped marks, like a computational stream; the marks must NOT form real digits, numbers or letters. A horizontal green visor band sits above the core. Exactly TWO thin green orbit rings circle it, carrying a few small glowing beads like an abacus made of light. Bright, pleased tilt communicated by its physical angle, never a face. Clearly spherical central body and complete elliptical orbit rings; no head on a neck, no humanoid torso and no legs. Very different in outline from Warden and Sift. All light parts are green, not cyan. Bead count and ring detail sparse enough to survive 124×168. The entire outer orbit ring must fit inside the transparent canvas with generous side margins.\nState: Thin narrow green visor band. Project ONE small, clean translucent green holographic forearm and flat OPEN PALM from the viewer-left side of the sphere, raised alongside it like a stop gesture. A simple luminous projection, not a solid added limb; it disappears in other states. Keep the sphere, core and BOTH orbit rings nearly identical, no legs. No text or stop-sign icon.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. 720×960 PNG master, final 480×640 WebP with alpha, maximum 22 KB at quality about 80. Complete silhouette and all rings, emitters or ribbons visible with clear safe side margins. Nothing cropped. Do not stretch the character to fill the portrait: preserve its distinctive proportions. One robot only. A visor band, not a face: no separate eyes, eyebrows or mouth.\n\nCritical visor geometry: the glowing visor in this state must be a literal THIN SLIT, just a single clean luminous line about 3 pixels tall in the final 480×640 asset. It must be visibly much thinner than the idle's broad light bar. Fill the space above and below this thin slit with opaque dark alloy. Keep the visor at the same eye-line height. No broad luminous bar and no additional eyes.\n\nKeep the holographic stop hand just above the viewer-left orbit, close to the sphere, entirely within the existing transparent side margin. It is a small projected outline of a flat five-fingered palm, not a new bulky mechanical arm and not a separate character. Preserve the complete rings inside the frame.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png",
+      "art-source/ledger-idle.png"
+    ],
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-428e7e14-5514-4f6a-abb8-340bbfd64565.png",
+    "processing": {
+      "quality": 74,
+      "alpha_processing": "six alpha levels",
+      "bytes": 22380,
+      "name": "ledger-stopped",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ],
+      "framing": "Same central-body vertical anchors and bottom baseline as the canonical idle; uniform scale only."
+    }
+  },
+  "art/muse-matched.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1 is the approved Warden; use its hand-illustrated broad slate-alloy facets, clean edges and legible light seams, not its body design. Reference image 2 is the approved gate; use its palette and side lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nBase colours: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF shadows, warm white #FFF4E0, alloy #262F47 to #5B6B8C. The new robot's explicitly specified signature light colour is an authorised extension of that palette and must replace Warden's cyan in all luminous robot parts. Light enough slate alloy body to read at 124×168 on #171D29. Smooth gradients and large graphic facets, restrained bloom only on actual lights. No grain, surface texture, specks, floating particles or granular alpha fringes. This is a single cut-out character, with no floor, scenery, labels or mockup.\nInput image 3 is the canonical muse-idle portrait, the EXACT identity and framing reference for this edit. Preserve the same body design, proportions, camera, silhouette scale, horizontal centre, head position and bottom baseline. The body stays nearly identical; change only the state described below. Do not enlarge or re-centre the character within its portrait; preserve the idle reference's transparent margins, including the large top margin for wide low robots.\nMuse: a tall, slender android in dark slate alloy with unmistakable DEEP MAGENTA #FF3DB8 light, elegant and calm. A smooth oval head with a SOFT horizontal magenta visor band, under a floating CRESCENT halo. No human face, eyes, eyebrows or mouth. Long tapering armour plates fall like a GOWN, simple elegant layers rather than legs or Warden's pointed hover column. A ribbon of magenta light loops around the body, and Muse reads from the ribbon. No writing or numbers on the ribbon. Two slim alloy arms rest gently near the ribbon. Gentle swaying posture and narrow graceful silhouette, clearly distinct from Warden. All luminous visor, seams, crescent and ribbon are magenta, not cyan. The ribbon is restrained light with genuine translucency, not thick opaque bright fabric. Keep the gown silhouette clean and the whole crescent and ribbon inside the frame.\nState: Thin narrow magenta #FF3DB8 visor band, about one quarter of the idle band's height. Lean slightly forward toward the ribbon as a rule matches; keep the same elegant gown, crescent, ribbon path and arms.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. 720×960 PNG master, final 480×640 WebP with alpha, maximum 22 KB at quality about 80. Complete silhouette and all rings, emitters or ribbons visible with clear safe side margins. Nothing cropped. Do not stretch the character to fill the portrait: preserve its distinctive proportions. One robot only. A visor band, not a face: no separate eyes, eyebrows or mouth.\n\nCritical visor geometry: the glowing visor in this state must be a literal THIN SLIT, just a single clean luminous line about 3 pixels tall in the final 480×640 asset. It must be visibly much thinner than the idle's broad light bar. Fill the space above and below this thin slit with opaque dark alloy. Keep the visor at the same eye-line height. No broad luminous bar and no additional eyes.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png",
+      "art-source/muse-idle.png"
+    ],
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-1793259f-5ed1-4c6a-8911-2994cac9f63e.png",
+    "processing": {
+      "quality": 78,
+      "alpha_processing": "six alpha levels",
+      "bytes": 22424,
+      "name": "muse-matched",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ],
+      "framing": "Same central-body vertical anchors and bottom baseline as the canonical idle; uniform scale only."
+    }
+  },
+  "art/muse-answered.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1 is the approved Warden; use its hand-illustrated broad slate-alloy facets, clean edges and legible light seams, not its body design. Reference image 2 is the approved gate; use its palette and side lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nBase colours: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF shadows, warm white #FFF4E0, alloy #262F47 to #5B6B8C. The new robot's explicitly specified signature light colour is an authorised extension of that palette and must replace Warden's cyan in all luminous robot parts. Light enough slate alloy body to read at 124×168 on #171D29. Smooth gradients and large graphic facets, restrained bloom only on actual lights. No grain, surface texture, specks, floating particles or granular alpha fringes. This is a single cut-out character, with no floor, scenery, labels or mockup.\nInput image 3 is the canonical muse-idle portrait, the EXACT identity and framing reference for this edit. Preserve the same body design, proportions, camera, silhouette scale, horizontal centre, head position and bottom baseline. The body stays nearly identical; change only the state described below. Do not enlarge or re-centre the character within its portrait; preserve the idle reference's transparent margins, including the large top margin for wide low robots.\nMuse: a tall, slender android in dark slate alloy with unmistakable DEEP MAGENTA #FF3DB8 light, elegant and calm. A smooth oval head with a SOFT medium horizontal magenta visor band, under a floating CRESCENT halo. No human face, eyes, eyebrows or mouth. Long tapering armour plates fall like a GOWN, simple elegant layers rather than legs or Warden's pointed hover column. A ribbon of magenta light loops around the body, and Muse reads from the ribbon. No writing or numbers on the ribbon. Two slim alloy arms rest gently near the ribbon. Gentle swaying posture and narrow graceful silhouette, clearly distinct from Warden. All luminous visor, seams, crescent and ribbon are magenta, not cyan. The ribbon is restrained light with genuine translucency, not thick opaque bright fabric. Keep the gown silhouette clean and the whole crescent and ribbon inside the frame.\nState: Medium magenta visor band. Relaxed gentle posture; lower the viewer-left arm and hand slightly while keeping the other hand close to the ribbon. Same gown and halo.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. 720×960 PNG master, final 480×640 WebP with alpha, maximum 22 KB at quality about 80. Complete silhouette and all rings, emitters or ribbons visible with clear safe side margins. Nothing cropped. Do not stretch the character to fill the portrait: preserve its distinctive proportions. One robot only. A visor band, not a face: no separate eyes, eyebrows or mouth.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png",
+      "art-source/muse-idle.png"
+    ],
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-4da22fdd-f998-45c5-a1db-6afb869bb8e6.png",
+    "processing": {
+      "quality": 76,
+      "alpha_processing": "six alpha levels",
+      "bytes": 22350,
+      "name": "muse-answered",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ],
+      "framing": "Same central-body vertical anchors and bottom baseline as the canonical idle; uniform scale only."
+    }
+  },
+  "art/muse-missed.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1 is the approved Warden; use its hand-illustrated broad slate-alloy facets, clean edges and legible light seams, not its body design. Reference image 2 is the approved gate; use its palette and side lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nBase colours: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF shadows, warm white #FFF4E0, alloy #262F47 to #5B6B8C. The new robot's explicitly specified signature light colour is an authorised extension of that palette and must replace Warden's cyan in all luminous robot parts. Light enough slate alloy body to read at 124×168 on #171D29. Smooth gradients and large graphic facets, restrained bloom only on actual lights. No grain, surface texture, specks, floating particles or granular alpha fringes. This is a single cut-out character, with no floor, scenery, labels or mockup.\nInput image 3 is the canonical muse-idle portrait, the EXACT identity and framing reference for this edit. Preserve the same body design, proportions, camera, silhouette scale, horizontal centre, head position and bottom baseline. The body stays nearly identical; change only the state described below. Do not enlarge or re-centre the character within its portrait; preserve the idle reference's transparent margins, including the large top margin for wide low robots.\nMuse: a tall, slender android in dark slate alloy with unmistakable DEEP MAGENTA #FF3DB8 light, elegant and calm. A smooth oval head with a SOFT medium horizontal magenta visor band, under a floating CRESCENT halo. No human face, eyes, eyebrows or mouth. Long tapering armour plates fall like a GOWN, simple elegant layers rather than legs or Warden's pointed hover column. A ribbon of magenta light loops around the body, and Muse reads from the ribbon. No writing or numbers on the ribbon. Two slim alloy arms rest gently near the ribbon. Gentle swaying posture and narrow graceful silhouette, clearly distinct from Warden. All luminous visor, seams, crescent and ribbon are magenta, not cyan. The ribbon is restrained light with genuine translucency, not thick opaque bright fabric. Keep the gown silhouette clean and the whole crescent and ribbon inside the frame.\nState: Very wide TALL visor band in bright pink #FF5A8A, at least twice the height of the idle band. Rock the upper body back a little as if a check failed. ONLY the visor changes to brighter pink; seams, halo and ribbon remain deep magenta #FF3DB8.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. 720×960 PNG master, final 480×640 WebP with alpha, maximum 22 KB at quality about 80. Complete silhouette and all rings, emitters or ribbons visible with clear safe side margins. Nothing cropped. Do not stretch the character to fill the portrait: preserve its distinctive proportions. One robot only. A visor band, not a face: no separate eyes, eyebrows or mouth.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png",
+      "art-source/muse-idle.png"
+    ],
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-a4f5161a-e7ce-406c-8878-1ce63a6be8cc.png",
+    "processing": {
+      "quality": 74,
+      "alpha_processing": "six alpha levels",
+      "bytes": 22368,
+      "name": "muse-missed",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ],
+      "framing": "Same central-body vertical anchors and bottom baseline as the canonical idle; uniform scale only."
+    }
+  },
+  "art/muse-stopped.webp": {
+    "licence": "Generated for Countersign. Check the image tool's terms for this account",
+    "source": "Codex image generation",
+    "prompt": "STYLE: stylised 2D illustration for a neon noir science fiction adventure game. Hand-crafted\nfeel, bold clean shapes, strong silhouettes, layered depth. Palette limited to midnight navy,\ndeep city blue, synthetic violet shadows, turquoise holographic light and amber accents, with\nwarm off-white highlights. Cool neon light from the side and warm lamp light where people are.\nSoft bloom only on light sources. Atmospheric, cinematic and slightly playful, with a sense of\nhumour, suitable for children aged 9 and up. Never scary. All robots are sleek and futuristic:\ndark alloy armour plates that float slightly apart, thin glowing seams of light, holographic\nparts and hover fields. Advanced technology, like a high-end science fiction film robot, but\nfriendly. Never clunky, boxy, rusty or retro.\n\nReference image 1 is the approved Warden; use its hand-illustrated broad slate-alloy facets, clean edges and legible light seams, not its body design. Reference image 2 is the approved gate; use its palette and side lighting.\nKeep palette, line weight, lighting, shape language and level of detail identical to the reference.\nBase colours: Midnight #111A4D, City blue #1E2C73, Synthetic violet #7C4DFF shadows, warm white #FFF4E0, alloy #262F47 to #5B6B8C. The new robot's explicitly specified signature light colour is an authorised extension of that palette and must replace Warden's cyan in all luminous robot parts. Light enough slate alloy body to read at 124×168 on #171D29. Smooth gradients and large graphic facets, restrained bloom only on actual lights. No grain, surface texture, specks, floating particles or granular alpha fringes. This is a single cut-out character, with no floor, scenery, labels or mockup.\nInput image 3 is the canonical muse-idle portrait, the EXACT identity and framing reference for this edit. Preserve the same body design, proportions, camera, silhouette scale, horizontal centre, head position and bottom baseline. The body stays nearly identical; change only the state described below. Do not enlarge or re-centre the character within its portrait; preserve the idle reference's transparent margins, including the large top margin for wide low robots.\nMuse: a tall, slender android in dark slate alloy with unmistakable DEEP MAGENTA #FF3DB8 light, elegant and calm. A smooth oval head with a SOFT horizontal magenta visor band, under a floating CRESCENT halo. No human face, eyes, eyebrows or mouth. Long tapering armour plates fall like a GOWN, simple elegant layers rather than legs or Warden's pointed hover column. A ribbon of magenta light loops around the body, and Muse reads from the ribbon. No writing or numbers on the ribbon. Two slim alloy arms rest gently near the ribbon. Gentle swaying posture and narrow graceful silhouette, clearly distinct from Warden. All luminous visor, seams, crescent and ribbon are magenta, not cyan. The ribbon is restrained light with genuine translucency, not thick opaque bright fabric. Keep the gown silhouette clean and the whole crescent and ribbon inside the frame.\nState: Thin narrow magenta visor band. Raise the viewer-left hand, OPEN PALM flat facing the viewer, like a stop gesture; its old lowered hand must disappear. Exactly two arms and two hands. Keep the other hand and ribbon as in idle. No text or stop-sign icon.\nTransparent background. Full figure centred on a 3:4 canvas, base touching the bottom edge. 720×960 PNG master, final 480×640 WebP with alpha, maximum 22 KB at quality about 80. Complete silhouette and all rings, emitters or ribbons visible with clear safe side margins. Nothing cropped. Do not stretch the character to fill the portrait: preserve its distinctive proportions. One robot only. A visor band, not a face: no separate eyes, eyebrows or mouth.\n\nCritical visor geometry: the glowing visor in this state must be a literal THIN SLIT, just a single clean luminous line about 3 pixels tall in the final 480×640 asset. It must be visibly much thinner than the idle's broad light bar. Fill the space above and below this thin slit with opaque dark alloy. Keep the visor at the same eye-line height. No broad luminous bar and no additional eyes.\n\nEXCLUDE: colours outside the palette, clunky toy robots, rivets, rust, cogs, photorealism, stock photo look, 3D render,\nheavy film grain, fine noise, scanlines, gore, weapons, text, letters, numbers, logos,\nsignatures, watermarks, interface panels, mockup frames, borders, duplicate characters, cropped\nheads or feet.",
+    "date": "2026-11-01",
+    "references": [
+      "art-source/warden-idle.png",
+      "art-source/scene-gate.png",
+      "art-source/muse-idle.png"
+    ],
+    "source_image": "C:\\Users\\pooja\\.codex\\generated_images\\01a1950d-6af4-7ea1-88b7-6b5c5676248a\\exec-6640c0fd-abd9-4a19-98e1-1e0a48d87e24.png",
+    "processing": {
+      "quality": 76,
+      "alpha_processing": "six alpha levels",
+      "bytes": 22452,
+      "name": "muse-stopped",
+      "size": [
+        480,
+        640
+      ],
+      "master_size": [
+        720,
+        960
+      ],
+      "framing": "Same central-body vertical anchors and bottom baseline as the canonical idle; uniform scale only."
+    }
+  }
+}
