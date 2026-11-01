@@ -29,7 +29,7 @@ export function CharacterPortrait({ who, pose, lamps = [] }: { who: CharacterId;
   const rest = human ? 'neutral' : 'idle';
   // A character with any finished art never falls back to its stand-in, even if this pose isn't drawn yet.
   const image = artFor(who === 'sparks' ? 'sparks-idle' : `${who}-${pose ?? rest}`) ?? artFor(`${who}-${rest}`);
-  if (image) return <img className="portrait-image" src={image} alt="" />;
+  if (image) return <img className={`portrait-image portrait-${who}`} src={image} alt="" />;
   const botPose = BOT_POSES[pose ?? 'idle'] ?? 'idle';
   // data-theme sets --accent, so a guard keeps its own colour wherever it appears
   const art = (() => {

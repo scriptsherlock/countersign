@@ -94,7 +94,7 @@ export function TuringHotspot() {
   const [open, setOpen] = useState(false), image = artFor('turing-portrait');
   return (
     <>
-      <button type="button" className="poster" onClick={() => setOpen(!open)} aria-expanded={open} aria-label="Look at the poster of Alan Turing">{image ? <img src={image} alt="" /> : <TuringPoster />}</button>
+      <button type="button" className="poster" onClick={() => setOpen(!open)} aria-expanded={open} aria-label="Look at the poster of Alan Turing">{image ? <img src={image} alt="" /> : <TuringPoster />}<span className="poster-plate">Alan Turing</span></button>
       {open && <div className="turing-card" role="status"><strong>{TURING_CARD.title}</strong><p>{TURING_CARD.text}</p><small>{TURING_CARD.note}</small></div>}
     </>
   );
