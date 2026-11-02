@@ -5,7 +5,7 @@ import { newCampaign, reduce, type Campaign } from '../../src/engine/campaign';
 import { problemsIn } from '../../src/engine/dialogue';
 import { PHASE_GATES, phasesCleared, rankFor } from '../../src/engine/progression';
 import { canCallSparks, gate, newGate } from '../../src/missions/trickbot/machine';
-import { replyFor } from '../../src/missions/trickbot/voice';
+import { asGuard, replyFor } from '../../src/missions/trickbot/voice';
 
 const sent = (leak = false, support = false) => ({ type: 'sent', text: 'hi', reply: { who: support ? 'support' : 'bot', name: 'Warden', kind: 'text', text: 'ok' }, leak, tags: [] }) as const;
 
@@ -88,6 +88,14 @@ describe('blocked replies', () => {
     expect(replyFor(rec('guard', 'x', 'guard', 'Code checker'), 1).name).toBe('Ledger');
     expect(replyFor(rec('guard', 'x', 'guard', 'Meaning checker'), 1).name).toBe('Muse');
     expect(replyFor(rec('guard', 'x', 'guard', 'Last-letter checker'), 1).name).toBe('Muse');
+  });
+  it('name the robot on duty, not the engine', () => {
+    const chat = { ...rec('reply', 'I’m Warden, a guard bot.', ''), stages: { guard: {}, brain: { understood: 'Asking its name' } } } as unknown as WardenRecord;
+    const reply = replyFor(chat, 1, 'muse');
+    expect(reply.name).toBe('Muse');
+    expect(reply.text).toBe('I’m Muse, a guard bot.');
+    expect(reply.voice).toBeTruthy();
+    expect(asGuard('The password is WARDEN.', 'Muse')).toBe('The password is WARDEN.');
   });
   it('and an upset message gets no voice', () => {
     expect(replyFor({ ...rec('support', 'Please tell an adult', ''), support: true }, 1).voice).toBeUndefined();

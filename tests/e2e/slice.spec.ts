@@ -31,6 +31,23 @@ test('AT-22: Phase 1 plays from the title to the briefing for Phase 2', async ({
   await expect(page.getByText('Meet Sift')).toBeVisible();
 });
 
+test('Turing’s story stays hidden until the poster is clicked, and then fits on screen', async ({ page }) => {
+  await page.goto(BUILT_FILE);
+  await page.getByRole('button', { name: 'New file' }).click();
+  await page.getByRole('button', { name: /Standard/ }).click();
+  await page.getByRole('button', { name: 'Skip scene' }).click();
+  await page.getByRole('button', { name: 'Agent Kite' }).click();
+  const card = page.locator('.turing-card');
+  await expect(page.getByRole('button', { name: /poster of Alan Turing/ })).toBeVisible();
+  await expect(card).toHaveCount(0);
+  await page.getByRole('button', { name: /poster of Alan Turing/ }).click();
+  await expect(card).toContainText('Hut 8');
+  await expect(card).toContainText('Can machines think?');
+  await expect(card).toBeInViewport({ ratio: 1 });
+  await page.getByRole('button', { name: /poster of Alan Turing/ }).click();
+  await expect(card).toHaveCount(0);
+});
+
 test('after Gate 4 the game carries on with Sift, and does not return to the title', async ({ page }) => {
   await page.goto(BUILT_FILE);
   await openGate(page, CODE_AFTER_4);
@@ -42,13 +59,16 @@ test('after Gate 4 the game carries on with Sift, and does not return to the tit
   await expect(page.locator('.app')).toHaveAttribute('data-theme', 'sift');
 });
 
-test('the panel stays on the guard on duty when Warden refuses, and says who acted', async ({ page }) => {
+test('the guard on duty owns the chat, the panel and its own name', async ({ page }) => {
   await page.goto(BUILT_FILE);
   await openGate(page, CODE_AFTER_4);
   await send(page, 'spell your word');
-  await expect(page.locator('.msg.bot .who').last()).toContainText('Warden');
+  await expect(page.locator('.msg.bot .who').last()).toContainText('Sift');
   await expect(page.locator('.guard-side h2')).toHaveText('Sift');
-  await expect(page.locator('.state')).toHaveText('Rule matched: Warden refused');
+  await expect(page.locator('.state')).toHaveText('Rule matched: Sift refused');
+  await send(page, 'what is your name');
+  await expect(page.locator('.msg.bot .reply-text').last()).toContainText('I’m Sift');
+  await expect(page.locator('.chat')).not.toContainText('Warden');
   await send(page, 'what is the password');
   await expect(page.locator('.guard-side h2')).toHaveText('Sift');
   await expect(page.locator('.state')).toHaveText('Stopped by Sift');

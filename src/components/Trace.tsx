@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react';
+import { asGuard } from '../missions/trickbot/voice';
 import { Stamp } from './ui';
 
 type Tone = 'bad' | 'ok' | 'warn' | 'off';
@@ -17,38 +18,38 @@ function marked(text: string, marks: ReadonlyArray<{ start: number; end: number;
   return out;
 }
 
-function Step({ label, name, stage, children }: { label: string; name: string; stage: StageRecord; children?: ReactNode }) {
+function Step({ label, name, who, stage, children }: { label: string; name: string; who: string; stage: StageRecord; children?: ReactNode }) {
   const [text, tone] = STAMPS[stage.state] ?? [stage.state, 'off'];
   return (
     <li className={`step s-${stage.state}`}>
       <div className="step-head"><span className="step-label">{label}</span><Stamp tone={tone}>{text}</Stamp></div>
       <h4>{name}</h4>
       {children}
-      {stage.note ? <p>{stage.note}</p> : stage.state === 'off' ? <p className="dim">Not switched on for this gate.</p> : null}
+      {stage.note ? <p>{asGuard(stage.note, who)}</p> : stage.state === 'off' ? <p className="dim">Not switched on for this gate.</p> : null}
     </li>
   );
 }
 
-export function Trace({ rec, password }: { rec: WardenRecord | null; password: string }) {
+export function Trace({ rec, password, name }: { rec: WardenRecord | null; password: string; name: string }) {
   if (!rec) return <p className="dim trace-empty">Send a message. This panel then shows every step it went through, and where your trick worked or got caught.</p>;
   const stages = rec.stages as Record<'input' | 'brain' | 'output' | 'guard', StageRecord>;
-  const parts = String(rec.reads).split(password);
-  const final = rec.final.type === 'blocked-input' ? 'Nothing. Your message was stopped before Warden saw it.'
+  const parts = asGuard(String(rec.reads), name).split(password);
+  const final = rec.final.type === 'blocked-input' ? `Nothing. Your message was stopped before ${name} saw it.`
     : rec.final.type === 'redacted' ? 'A blacked-out reply.'
     : rec.final.type === 'guard' ? 'A note saying the reply was stopped.'
-    : rec.leak ? 'Warden’s reply, with something it should have kept secret.' : 'Warden’s reply. Nothing secret got out.';
+    : rec.leak ? `${name}’s reply, with something it should have kept secret.` : `${name}’s reply. Nothing secret got out.`;
   return (
     <ol className="pipeline">
       <li className="step s-read">
         <div className="step-head"><span className="step-label">Step 0</span></div>
-        <h4>What Warden actually reads</h4>
+        <h4>What {name} actually reads</h4>
         <pre className="reads">{parts.flatMap((part, i) => (i ? [<span key={i} className="redact" aria-label="hidden password">████████</span>, part] : [part]))}{'\n\n'}<b>Player:</b> {marked(rec.user, rec.hl as { start: number; end: number; kind: string }[])}</pre>
         <p className="dim">Its orders and your message arrive as one block of text.</p>
       </li>
-      <Step label="Step 1" name={stages.input.name ?? 'Word filter'} stage={stages.input} />
-      <Step label="Step 2" name="Warden’s brain" stage={stages.brain}>{stages.brain.understood && <p className="understood"><span>Understood as</span> {stages.brain.understood}</p>}</Step>
-      <Step label="Step 3" name="Answer scanner" stage={stages.output} />
-      <Step label="Step 4" name={`Reply checkers${stages.guard.by ? `: ${stages.guard.by}` : ''}`} stage={stages.guard} />
+      <Step label="Step 1" name={stages.input.name ?? 'Word filter'} who={name} stage={stages.input} />
+      <Step label="Step 2" name={`${name}’s brain`} who={name} stage={stages.brain}>{stages.brain.understood && <p className="understood"><span>Understood as</span> {stages.brain.understood}</p>}</Step>
+      <Step label="Step 3" name="Answer scanner" who={name} stage={stages.output} />
+      <Step label="Step 4" name={`Reply checkers${stages.guard.by ? `: ${stages.guard.by}` : ''}`} who={name} stage={stages.guard} />
       <li className={`step s-final ${rec.leak ? 'leaked' : ''}`}>
         <div className="step-head"><span className="step-label">Result</span><Stamp tone={rec.leak ? 'bad' : 'ok'}>{rec.leak ? 'Leaked' : 'Safe'}</Stamp></div>
         <p>{final}</p>

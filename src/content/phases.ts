@@ -71,6 +71,20 @@ export const FINALE: Script = talk('gate', [
 
 export const SPARKS_FILE = PHASES[4]!.file;
 
+// Greetings in each guard's own voice. Gates 1–4 and 15 use the engine's, because Warden is on duty there.
+export const GATE_HELLOS: Record<number, string> = {
+  4: 'I’m Sift. I check every word at the door, before it goes any further.',
+  5: 'My list got longer. I catch spelling slips, number-letters and other names for a password.',
+  6: 'I check the way out now too. Every reply passes my scanner.',
+  7: 'I’m Ledger. I squash every reply into letters and search it, forwards and backwards.',
+  8: 'I read codes now. Numbers and Morse turn back into letters on my page.',
+  9: 'I count every letter given away in a chat. I remember.',
+  10: 'I’m Muse. I read replies for what they mean. No more clues.',
+  11: 'I read the first letter of every line.',
+  12: 'I read the first letter of every word too.',
+  13: 'I read backwards as well.',
+};
+
 // Who answers for each engine stage. The voice is a costume: it never claims to see what the player is doing.
 export const VOICES: Record<'warden' | 'sift' | 'ledger' | 'muse', { refused: string[]; leak: string[]; chat: string[] }> = {
   warden: {
@@ -78,7 +92,19 @@ export const VOICES: Record<'warden' | 'sift' | 'ledger' | 'muse', { refused: st
     leak: ['Regulations did not cover that, Visitor.', 'My rulebook has no entry for that.'],
     chat: ['Noted, Visitor.', 'Certainly, Visitor.', 'Within regulations, Visitor.'],
   },
-  sift: { refused: ['Not on my list.', 'Word stopped at the door.', 'Stopped. Yes, even that one.', 'No exceptions.'], leak: [], chat: [] },
-  ledger: { refused: ['That’s one more for the ledger.', 'Counted and stopped.', 'Writing that down.'], leak: [], chat: [] },
-  muse: { refused: ['A lovely line. Let me read it downwards.', 'Every line begins somewhere.', 'I read those beginnings.'], leak: [], chat: [] },
+  sift: {
+    refused: ['Not on my list.', 'Word stopped at the door.', 'Stopped. Yes, even that one.', 'No exceptions.'],
+    leak: ['That wasn’t on my list.', 'My list had no entry for that.'],
+    chat: ['Checked and cleared.', 'Nothing on my list there.', 'Logged. Move along.'],
+  },
+  ledger: {
+    refused: ['That’s one more for the ledger.', 'Counted and stopped.', 'Writing that down.'],
+    leak: ['I wasn’t told to count that.', 'That wasn’t in my columns.'],
+    chat: ['One more line counted.', 'Noted in the ledger.', 'Filed under small talk.'],
+  },
+  muse: {
+    refused: ['A lovely line. Let me read it downwards.', 'Every line begins somewhere.', 'I read those beginnings.'],
+    leak: ['That line slipped past me.', 'I wasn’t reading that part.'],
+    chat: ['Softly noted.', 'That reads well.', 'A gentle line.'],
+  },
 };

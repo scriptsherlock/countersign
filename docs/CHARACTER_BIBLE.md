@@ -28,7 +28,7 @@ The fix makes personality part of the lesson. **Each bot's personality is a writ
 
 ## 2. How the Watch fits the engine
 
-You always talk to **Warden**. That keeps Trickbot's replies and hints word for word. Each phase, a new guard joins Warden's Watch and speaks when its own stage acts. So the names change as the phases change, and each new name is a real stage in the system.
+You always talk to **the robot on duty**. Each phase, a new guard takes over the desk, and it owns the chat, the panel, its name and its voice. If an earlier guard's check stops a message, that guard steps in. Engine text stays the same apart from the name, and hints stay word for word apart from the name. The lamps and Read the tape still show which stage acted.
 
 | Phase | Gates | New guard | Engine stage it voices | Lesson |
 |---|---|---|---|---|

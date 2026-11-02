@@ -95,7 +95,7 @@ export function TuringHotspot() {
   return (
     <>
       <button type="button" className="poster" onClick={() => setOpen(!open)} aria-expanded={open} aria-label="Look at the poster of Alan Turing">{image ? <img src={image} alt="" /> : <TuringPoster />}<span className="poster-plate">Alan Turing</span></button>
-      {open && <div className="turing-card" role="status"><strong>{TURING_CARD.title}</strong><p>{TURING_CARD.text}</p><small>{TURING_CARD.note}</small></div>}
+      {open && <div className="turing-card" role="status"><strong>{TURING_CARD.title}</strong>{TURING_CARD.text.map(line => <p key={line}>{line}</p>)}<small>{TURING_CARD.note}</small></div>}
     </>
   );
 }

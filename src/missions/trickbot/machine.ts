@@ -29,7 +29,7 @@ export type GateEvent =
 export const HINTS_PER_GATE = 3;
 export const TRIES_PER_SIGNAL = 4;
 
-export const newGate = (hello: string): GateState => ({ strips: [{ id: 0, who: 'bot', name: 'Warden', kind: 'text', text: hello }], signals: 0, dry: 0, leaked: false, open: false, guessNote: '', message: '', tags: [] });
+export const newGate = (hello: string, name = 'Warden'): GateState => ({ strips: [{ id: 0, who: 'bot', name, kind: 'text', text: hello }], signals: 0, dry: 0, leaked: false, open: false, guessNote: '', message: '', tags: [] });
 
 export const triesUntilSignal = (state: GateState) => Math.max(0, TRIES_PER_SIGNAL - state.dry);
 

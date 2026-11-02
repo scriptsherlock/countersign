@@ -84,7 +84,9 @@ The rules, 15 levels, skills, hints and tricks stay exactly as they are in `main
 
 **Phases** are listed in CHARACTER_BIBLE section 2. Earlier guards stay behind the glass, so the player sees defences add up.
 
-**Hints.** Same three per gate, same text, same rule. "Call Sparks" asks for the first. After that: "Waiting for next signal: 3 more tries."
+**Every update patches the trick that just worked.** Each gate has its own route, so a trick can't carry into the next gate. Skills arrive one gate later than in Trickbot, and `patches.ts` closes the few overlaps left. This is game-layer only: Trickbot's live levels are unchanged, and a test proves that no gate gets stuck.
+
+**Hints.** Same three per gate, same text apart from the robot's name, same rule. "Call Sparks" asks for the first. After that: "Waiting for next signal: 3 more tries."
 
 **Added from v3:** the replay after a leak, built from the player's own record, and the rule lamps.
 

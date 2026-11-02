@@ -22,6 +22,11 @@ Batches 0, 1 and 2 are in and approved. Mission 02 lives in its own repo, `E:\Tu
 
 Live site: https://scriptsherlock.github.io/countersign/ , deployed by `.github/workflows/pages.yml` on every push to `main`.
 
+## Design notes
+
+- The robot on duty owns the chat, its name and its voice. Engine text changes only by name, at display time.
+- Every update patches the trick that just worked (`src/missions/trickbot/patches.ts`). If Trickbot's engine changes, re-run `tests/unit/patches.test.ts`, which uses `tests/fixtures/probes.json`.
+
 ## Tests
 
 See the final report for the latest run. Commands are in `AGENTS.md`.
