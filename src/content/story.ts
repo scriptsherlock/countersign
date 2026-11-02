@@ -8,9 +8,12 @@ export const firstDay: Script = {
   nodes: {
     a: { kind: 'line', who: 'adeyemi', text: 'New Avalon. A city of people, and more bots than anyone can count.', next: 'b' },
     b: { kind: 'line', who: 'adeyemi', text: 'Bots drive the trams and sort the post. They guard the Relay, which carries the city’s messages.', next: 'c' },
-    c: { kind: 'line', who: 'adeyemi', pose: 'suspicious', text: 'Lately, some of those messages have no sender.', next: 'd' },
-    d: { kind: 'line', who: 'adeyemi', text: 'I’m Supervisor Adeyemi, of the Bureau. You start today.', next: 'e' },
-    e: {
+    c: { kind: 'line', who: 'adeyemi', text: 'Twelve years ago, one false message shut the Relay for a whole week.', next: 'd' },
+    d: { kind: 'line', who: 'adeyemi', text: 'We call that week the Blackout. The Bureau’s job is to make sure it never happens twice.', next: 'e' },
+    e: { kind: 'line', who: 'adeyemi', pose: 'suspicious', text: 'Lately, messages have started to appear with no sender. Nobody knows who’s writing them.', next: 'f' },
+    f: { kind: 'line', who: 'adeyemi', pose: 'amused', text: 'That’s why you’re here. Congratulations on passing the Bureau’s entrance exam. Not many do.', next: 'g' },
+    g: { kind: 'line', who: 'adeyemi', text: 'I’m Supervisor Adeyemi. You start today as a recruit, and you answer to me.', next: 'h' },
+    h: {
       kind: 'choice', prompt: 'What do we call you?',
       options: [
         { text: 'Agent Zero', set: 'sign:Agent Zero', next: 'end' },
@@ -76,6 +79,9 @@ export const SPLICE = {
 
 export const TURING_CARD = {
   title: 'Alan Turing, 1912–1954',
-  text: 'In 1950, Turing opened a paper with the question “Can machines think?” He suggested testing it with typed messages, ideally over a teleprinter.',
+  text: [
+    'That’s Alan Turing. In the Second World War he led Hut 8 at Bletchley Park, the team that broke the German navy’s Enigma code. Polish codebreakers had shown the way.',
+    'In 1950 he asked “Can machines think?” and suggested a test: talk to it by typed message, and see if you can tell. Ingenious.',
+  ],
   note: 'Illustration',
 };

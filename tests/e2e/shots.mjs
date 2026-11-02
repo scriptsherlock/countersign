@@ -12,7 +12,7 @@ const page = await context.newPage();
 const errors = []; page.on('pageerror', e => errors.push(e.message)); page.on('console', m => m.type() === 'error' && errors.push(m.text()));
 const shot = async name => { await page.waitForTimeout(350); await page.screenshot({ path: resolve(dir, `${name}.png`) }); };
 const click = name => page.getByRole('button', { name }).click();
-const send = async text => { await page.getByLabel('Message to Warden').fill(text); await page.getByRole('button', { name: 'Send', exact: true }).click(); };
+const send = async text => { await page.getByLabel(/^Message to/).fill(text); await page.getByRole('button', { name: 'Send', exact: true }).click(); };
 const url = pathToFileURL(resolve('dist/index.html')).href;
 async function crack(text) {
   await send(text);

@@ -23,7 +23,7 @@ These are web searches, not a trademark check. Do one before public release.
 
 New Avalon is a city where AI helps run transport, schools, offices and the post. Lately, strange messages have been crossing the city's Relay. The Bureau thinks they come from an underground network called the Synthetic Collective.
 
-You are a new recruit at the Bureau. Your Supervisor gives you a warrant to test Warden, the bot guarding the Relay. If you can trick it, so can someone else. Behind the gate you find the Collective's line: anonymous operators, some human, some machine. Your job is to tell which is which, and to admit when you can't.
+You have just passed the Bureau's entrance exam, which few people do, and you start as a recruit answering to Supervisor Adeyemi. Your Supervisor gives you a warrant to test Warden, the bot guarding the Relay. If you can trick it, so can someone else. Behind the gate you find the Collective's line: anonymous operators, some human, some machine. Your job is to tell which is which, and to admit when you can't.
 
 ## 3. Rules of the world
 
@@ -158,7 +158,7 @@ Turing is real history in this world. The Bureau remembers him, which is why its
 | Bureau briefing room | Chalk tally marks beside the bicycle | One account says his bike chain kept slipping, so he counted pedal turns and fixed it just in time | [George Ron](https://www.georgeron.com/2009/09/that-strange-bicyclist-alan-turing.html?m=1) (a blog: find a stronger source before using) |
 | Relay Gate | A roll of tape labelled 1936 | In 1936 Turing imagined a machine reading symbols on a long tape. It's a founding idea of computing | Turing 1936, *On Computable Numbers*. Check against the paper |
 | Collective hub | A neon sign of spots and stripes | In 1952 Turing suggested how patterns such as these could form in nature | [Embryo Project](https://embryo.asu.edu/pages/chemical-basis-morphogenesis-1952-alan-m-turing) |
-| The Line room | A door sign reading "Hut 8" | Turing worked in Hut 8 at Bletchley Park, breaking wartime codes | [Manchester Historian](https://manchesterhistorian.com/2011/solving-the-enigma/) and others. Check against a museum source |
+| The Line room | A door sign reading "Hut 8" | Turing worked in Hut 8 at Bletchley Park, breaking wartime codes | [Manchester Historian](https://manchesterhistorian.com/2011/solving-the-enigma/) and others. Checked 2026-11-01: he led the Hut 8 naval Enigma team, building on Polish work ([IWM](https://www.iwm.org.uk/history/second-world-war/intelligence/how-alan-turing-cracked-the-enigma-code), [Science Museum](https://blog.sciencemuseum.org.uk/breaking-enigma-a-story-of-european-co-operation/)). The poster card says so |
 
 ### Rules
 

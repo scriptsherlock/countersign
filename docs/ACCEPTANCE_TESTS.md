@@ -71,7 +71,7 @@ WebKit in Playwright is not iPad Safari, and device emulation is not touch hardw
 | AT-15 | `replay` never contains the password for any pool word, and returns nothing for non-leaks | U |
 | AT-16 | `rankFor` gives the right rank at every milestone count, in any order. Rank-up shows once per rank | U |
 | AT-17 | **Voice doesn't change the game.** For all `probes.json` messages on all 15 gates, outcomes and engine text are the same with `voice` on or off. A support reply gets no voice line | U |
-| AT-18 | **Hints are exact.** Every Sparks signal equals `LEVELS[i].hints[j]` character for character. The next signal opens on the same try count as Trickbot | U, E |
+| AT-18 | **Hints are exact.** Every Sparks signal equals `LEVELS[i].hints[j]`, with only "Warden" swapped for the robot on duty. The next signal opens on the same try count as Trickbot | U, E |
 | AT-19 | The right guard speaks for each engine stage in each phase, and every guard has a personality file | U |
 
 ## 4. Vertical slice

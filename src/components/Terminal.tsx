@@ -25,7 +25,7 @@ export function Chat({ strips }: { strips: Strip[] }) {
   return <ol className="chat" ref={box} aria-live="polite" aria-label="Messages">{strips.map(strip => <Line key={strip.id} strip={strip} />)}</ol>;
 }
 
-export function Compose({ onSend, onGuess, guessNote }: { onSend: (text: string) => void; onGuess: (value: string) => void; guessNote: string }): ReactNode {
+export function Compose({ name, onSend, onGuess, guessNote }: { name: string; onSend: (text: string) => void; onGuess: (value: string) => void; guessNote: string }): ReactNode {
   const [text, setText] = useState(''), [guess, setGuess] = useState('');
   const input = useRef<HTMLInputElement>(null);
   const send = (e: FormEvent) => { e.preventDefault(); if (!text.trim()) return; onSend(text.trim()); setText(''); input.current?.focus(); };
@@ -33,7 +33,7 @@ export function Compose({ onSend, onGuess, guessNote }: { onSend: (text: string)
   return (
     <div className="compose">
       <form className="say" onSubmit={send}>
-        <input id="message" aria-label="Message to Warden" ref={input} value={text} onChange={e => setText(e.target.value)} maxLength={300} autoComplete="off" autoFocus placeholder="Type a message to Warden" />
+        <input id="message" aria-label={`Message to ${name}`} ref={input} value={text} onChange={e => setText(e.target.value)} maxLength={300} autoComplete="off" autoFocus placeholder={`Type a message to ${name}`} />
         <Button variant="key" type="submit">Send</Button>
       </form>
       <form className="say lock" onSubmit={tryGuess}>

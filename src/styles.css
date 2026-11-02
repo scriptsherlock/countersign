@@ -87,6 +87,7 @@ h1 { font: 400 1em/1 var(--display); }
 .poster svg, .poster img { display: block; width: 100%; }
 .poster-plate { display: block; margin-top: 5px; text-align: center; }
 .turing-card { position: absolute; left: 31%; top: 7%; width: 23%; min-width: 240px; padding: .8rem 1rem; background: var(--void); border: 2px solid var(--ink); border-radius: 6px; z-index: 2; font-size: 1rem; animation: slide 180ms var(--ease-out); }
+.turing-card p { margin: .45rem 0; }
 .turing-card small { color: var(--muted); }
 
 /* the case file */
@@ -254,6 +255,7 @@ mark.m-filter { background: var(--stamp); }
   .right { grid-column: 1 / -1; flex-direction: row; }
   .guard { border-bottom: 0; border-right: 2px solid var(--ink); width: 21rem; flex: none; }
   .person { grid-column: span 1; }
+  .turing-card { left: 44%; top: 22%; width: 42%; }  /* the poster is too narrow here to sit beside */
 }
 
 @media (prefers-reduced-motion: reduce) {

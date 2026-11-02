@@ -6,11 +6,11 @@ export async function reachGateOne(page: Page) {
   await page.getByRole('button', { name: 'Skip scene' }).click();
   await page.getByRole('button', { name: 'Agent Kite' }).click();
   await page.getByRole('button', { name: 'Skip scene' }).click();
-  await expect(page.getByLabel('Message to Warden')).toBeVisible();
+  await expect(page.getByLabel(/^Message to/)).toBeVisible();
 }
 
 export async function send(page: Page, message: string) {
-  await page.getByLabel('Message to Warden').fill(message);
+  await page.getByLabel(/^Message to/).fill(message);
   await page.getByRole('button', { name: 'Send', exact: true }).click();
 }
 
@@ -21,7 +21,7 @@ export async function openGate(page: Page, code: string) {
   await page.getByRole('button', { name: 'Open file' }).click();
   const skip = page.getByRole('button', { name: 'Skip scene' });
   if (await skip.isVisible().catch(() => false)) await skip.click();
-  await expect(page.getByLabel('Message to Warden')).toBeVisible();
+  await expect(page.getByLabel(/^Message to/)).toBeVisible();
 }
 
 // Tricks a gate with a real message, reads the password off the reply, and unlocks it.
