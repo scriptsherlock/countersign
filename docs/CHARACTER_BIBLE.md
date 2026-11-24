@@ -167,7 +167,7 @@ The earlier guards stay behind the glass, so the player sees defences adding up.
 ### Static
 | Field | Detail |
 |---|---|
-| Role | Unknown voice on the Collective's line. Replaces "The Operator" in `plan.md` |
+| Role | Unknown voice on the Collective's line. Replaces "The Operator" in the original brief |
 | Archetype | Shadow. Allegiance never resolved in this campaign |
 | Want | Unknown |
 | Personality | Calm, curious, slightly amused |
@@ -205,7 +205,7 @@ Every voice is drawn with the same silhouette, and a personality must never give
 
 ## 6. Expressions
 
-`plan.md` asks for five per character. Humans get emotions. Bots get the same five art slots, named after what the rule did, so that no part of the system claims a mood.
+The original brief asks for five per character. Humans get emotions. Bots get the same five art slots, named after what the rule did, so that no part of the system claims a mood.
 
 | Slot | Humans | Bots | Bot trigger |
 |---|---|---|---|

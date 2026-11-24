@@ -21,7 +21,7 @@ Status: plan, 2026-11-01. Written for the agents and developers who will build i
 
 Trickbot stays live and independent. This game reads from it and never writes to it.
 
-**`plan.md` assumes Trickbot has an LLM integration and a backend. It has neither.** Everything in that document about keeping a backend or model endpoint for Trickbot doesn't apply.
+**The original brief assumes Trickbot has an LLM integration and a backend. It has neither.** Everything in that document about keeping a backend or model endpoint for Trickbot doesn't apply.
 
 ## 2. Delivery
 
@@ -42,7 +42,7 @@ Pupils can't run a server, and the brief asks for React and TypeScript. Both hol
 | Vite, `vite-plugin-singlefile`, TypeScript | XState: small reducers are enough. Router: no URLs |
 | Vitest, Playwright, axe | Ink, Yarn, Twine: lines, choices and flags need only a small runner |
 | `@anthropic-ai/sdk` in `tools/` only, never bundled | Tailwind, component kits: 11 components and one token file |
-| | Zustand: `plan.md` allows it only if needed, and reducers cover this. Motion: `plan.md` says "where suitable", and CSS and WAAPI cover the short list of moments. Revisit if a real need appears |
+| | Zustand: the original brief allows it only if needed, and reducers cover this. Motion: the original brief says "where suitable", and CSS and WAAPI cover the short list of moments. Revisit if a real need appears |
 
 ### Budgets
 
@@ -62,7 +62,6 @@ Follows the suggested structure, plus `content/`, `tools/` and `vendor/`, which 
 
 ```
 ghost-protocol/
-├── AGENTS.md
 ├── docs/
 ├── index.html
 ├── src/
@@ -276,7 +275,7 @@ Prices from the Claude API reference, cached 2026-10-06. Batch is 50% off. The t
 | Rejected: live, 30 pupils × 20 questions | 600 | 480k / 72k | Haiku 5.5 | About $0.08 per class |
 | Rejected: live, same | 600 | 480k / 72k | Opus 5.5 | About $3.36 per class |
 
-`plan.md` lists an optional live round for advanced players. Live mode is rejected for this release on risk, not price. It would need a proxy, key handling, moderation, rate limits and a safeguarding review, and one network failure stops a class.
+The original brief lists an optional live round for advanced players. Live mode is rejected for this release on risk, not price. It would need a proxy, key handling, moderation, rate limits and a safeguarding review, and one network failure stops a class.
 
 ## 10. Security
 

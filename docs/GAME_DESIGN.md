@@ -21,7 +21,7 @@ Countersign is a 2D narrative adventure set in New Avalon, a neon city run with 
 | Hints | Trickbot's exact hints, delivered by Sparks over comms | Your request |
 | Waits | "Waiting for next signal", counted in tries | Your request. Same rule as today: next hint after 4 tries |
 | Ranks | 6 ranks, awarded by the Supervisor | Your request |
-| Age bands | Three briefing styles, Years 4–13 | `plan.md` |
+| Age bands | Three briefing styles, Years 4–13 | The original brief |
 | Trickbot | Keep the live game. Reuse its engine unchanged, based on `main` | `main` has the skills design, freeze and leak fixes, and now the safeguarding fix |
 | Support reply | Keeps the Childline line, as display text with no link | Your decision |
 | Alan Turing | A stylised portrait plus 7 hidden details in scenes | Your request. Rules in WORLD_BIBLE section 12 |
@@ -99,7 +99,7 @@ The rules, 15 levels, skills, hints and tricks stay exactly as they are in `main
 **Loop.** A shift has 2–4 anonymous operators and a set of signal bars. Choose a question card and every operator answers on the tape, which costs one bar. When the line goes quiet, mark each operator as Human, Machine or Not enough evidence, say if you're Sure or Unsure, and pin a clue card as your reason. The tape then prints who wrote each reply, and for machines it shows the personality file. You can then revise a reason.
 
 ### Question cards
-12 cards across the 7 categories in `plan.md`: everyday life, humour, what-if, reasoning, follow-up, contradiction, preferences. No card asks the player for anything personal: the operators answer them, not the player.
+12 cards across the 7 categories in the original brief: everyday life, humour, what-if, reasoning, follow-up, contradiction, preferences. No card asks the player for anything personal: the operators answer them, not the player.
 
 ### Clue cards
 Repeated me, Forgot what I said, Gave a lived detail, Made typos, Too perfect, Dodged the question, Solved the puzzle, Just a feeling. After each reveal a card is marked "helped here" or "misled you here". No clue is ever marked as reliable.
@@ -206,10 +206,10 @@ Three choices change later lines, then the story merges again. This keeps writin
 | Marking reasons | No | Clue cards are marked locally |
 | Dialogue, hints, personality flavour | No | Authored, so reading level and safety can be checked |
 | Content review | Optional, developer only | A person still approves every reply |
-| Free-typed questions to operators | Not in this release | Needs a server, key, moderation and safeguarding review. Costed in ARCHITECTURE.md. `plan.md`'s optional live round would be Phase 5 |
-| Pupils matched with each other | No LLM, but a later feature | Phase 5. See IMPLEMENTATION_PLAN section 6 |
+| Free-typed questions to operators | Not in this release | Needs a server, key, moderation and safeguarding review. Costed in ARCHITECTURE.md. The original brief's optional live round would be Phase 5 |
+| Pupils matched with each other | No LLM, but a later feature | A later phase |
 
-**`plan.md` says to retain Trickbot's existing LLM integration and backend. Neither exists.** Trickbot is one offline file of rules, so that advice doesn't apply.
+**The original brief says to retain Trickbot's existing LLM integration and backend. Neither exists.** Trickbot is one offline file of rules, so that advice doesn't apply.
 
 ## 11. Safeguarding and ethics
 
@@ -218,7 +218,7 @@ Three choices change later lines, then the story merges again. This keeps writin
 - Mission 02 has no free text, so no new safeguarding surface.
 - All model replies are reviewed by a person. School-friendly topics only: no romance, violence, politics, religion or health advice.
 - No accounts, names, analytics or network calls.
-- `plan.md`'s question categories must never ask the player for personal experiences.
+- The original brief's question categories must never ask the player for personal experiences.
 
 ## 12. Research notes
 

@@ -1,10 +1,10 @@
 # Countersign: design system
 
-Updated 2026-11-01. This doc is also the art bible that `plan.md` asks for. Contrast figures are measured. Final art instructions are in [CODEX_ART_BRIEF.md](CODEX_ART_BRIEF.md).
+Updated 2026-11-01. This doc is also the art bible that the original brief asks for. Contrast figures are measured.
 
 ## 1. Direction
 
-**The world and story are Neon Noir × Playful Sci-Fi,** as in `plan.md`: the title, cutscenes, characters and files.
+**The world and story are Neon Noir × Playful Sci-Fi,** as in the original brief: the title, cutscenes, characters and files.
 
 **The bot interface is Trickbot's dark navy case file,** with a retro hacker layer of scanlines. It isn't monochrome. **Its theme colour changes with the robot on duty,** so each phase feels like a new place, and the colour itself tells the player who they're facing.
 
@@ -122,7 +122,7 @@ Only `transform`, `opacity` and `clip-path`. Input is never blocked by animation
 
 ## 7. Art
 
-All art is neon noir. Final style, palette, file sizes and prompts are in [CODEX_ART_BRIEF.md](CODEX_ART_BRIEF.md). In short: strong silhouettes, no text, and sleek futuristic robots with floating alloy plates, seams of light in their theme colour, and bands of light in place of faces. Faces change with rule outcomes, and lamps always stay plain.
+All art is neon noir. In short: strong silhouettes, no text, and sleek futuristic robots with floating alloy plates, seams of light in their theme colour, and bands of light in place of faces. Faces change with rule outcomes, and lamps always stay plain.
 
 The SVG art in `src/assets` is a stand-in. Files in `src/assets/art` replace it by name.
 

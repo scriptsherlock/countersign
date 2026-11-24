@@ -133,9 +133,9 @@ You write the report. Your verdict on the Collective is your own: machines, peop
 
 **The hook:** the last strip has no sender. It's signed with the countersign you used at the Gate. Somebody was watching, and that's a story for the next mission.
 
-## 11. Differences from `plan.md`
+## 11. Differences from the original brief
 
-| `plan.md` | Here | Why |
+| The original brief | Here | Why |
 |---|---|---|
 | Ghost Protocol | Countersign | Your request |
 | K.E.E.P.E.R. | Warden | Your request |

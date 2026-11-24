@@ -1,6 +1,6 @@
 # Countersign: asset manifest
 
-Updated 2026-11-01. Style and prompts are in [CODEX_ART_BRIEF.md](CODEX_ART_BRIEF.md), which replaces the earlier Gemini route. Gemini has no free image model, so Codex generates the art.
+Updated 2026-11-01. Codex generated the art from a private art brief, replacing the earlier Gemini route. Gemini has no free image model.
 
 Status: Batches 0, 1 and 2 approved. Batch 3 goes to the Mission 02 repo, and has not been made. Until a file exists, the game shows its SVG stand-in. A character with any finished art uses its resting pose until the other poses arrive.
 
