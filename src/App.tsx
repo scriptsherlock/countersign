@@ -6,7 +6,10 @@ import { FINALE, PHASES } from './content/phases';
 import { firstDay, warrant, SPLICE } from './content/story';
 import { newCampaign, reduce } from './engine/campaign';
 import type { Band } from './engine/dialogue';
-import { phasesCleared, rankFor } from './engine/progression';
+import { PHASE_GATES, phasesCleared, rankFor } from './engine/progression';
+
+// Teachers and demos: add #unlock to the address to jump to any phase or gate. Normal play is unchanged.
+export const UNLOCK_ALL = /unlock/.test(location.hash);
 import { clearGame, loadGame, saveGame } from './engine/save';
 import { Complete, FieldReport, PhaseFile, SecondSplice, TuringHotspot } from './missions/trickbot/screens';
 import { TrickbotMission } from './missions/trickbot/TrickbotMission';
@@ -39,6 +42,14 @@ function Title({ onNew, onContinue, onCode, saved }: { onNew: (band: Band) => vo
           <div className="row">
             <Button variant="key" autoFocus onClick={() => setChoosing(true)}>New file</Button>
             {saved && <Button onClick={onContinue}>Continue</Button>}
+          </div>
+        )}
+        {UNLOCK_ALL && (
+          <div className="jump" role="group" aria-label="Jump to a phase">
+            <p className="jump-label">Jump to a phase</p>
+            <div className="row">
+              {PHASES.map((p, i) => <Button key={p.name} onClick={() => onCode(PHASE_GATES[i]![0]!)}>{i + 1}. {p.name}</Button>)}
+            </div>
           </div>
         )}
         <details className="codebox">
@@ -78,7 +89,7 @@ export function App() {
       return <main className="full" data-theme={PHASES[state.phase]!.theme}><SceneStage scene={script.scene}>{script.scene === 'bureau' && <TuringHotspot />}<DialogueBox key={state.phase} script={script} band={state.band} flags={state.flags} onDone={next} /></SceneStage></main>;
     }
     case 'mission':
-      return <TrickbotMission key={state.phase} phase={state.phase} rank={rank} callSign={callSign} cracked={state.cracked} tricks={state.tricks} onOpened={(gate, message, tricks) => { setPromotedFrom(rank); dispatch({ type: 'gateOpened', gate, message, tricks }); }} onDone={next} />;
+      return <TrickbotMission key={state.phase} phase={state.phase} rank={rank} callSign={callSign} cracked={state.cracked} tricks={state.tricks} onJump={UNLOCK_ALL ? gate => dispatch({ type: 'fieldCode', cracked: gate, band: state.band }) : undefined} onOpened={(gate, message, tricks) => { setPromotedFrom(rank); dispatch({ type: 'gateOpened', gate, message, tricks }); }} onDone={next} />;
     case 'file':
       return <main className="full" data-theme={PHASES[state.phase]!.theme}><PhaseFile phase={state.phase} rank={rank} promoted={promotedFrom !== rank} onNext={next} /></main>;
     case 'report':

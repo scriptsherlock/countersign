@@ -76,7 +76,7 @@ function Gate({ index, phase, isLast, used, onOpened, onNext }: { index: number;
   );
 }
 
-export function TrickbotMission({ phase, rank, callSign, cracked, tricks, onOpened, onDone }: { phase: number; rank: string; callSign: string; cracked: number[]; tricks: string[]; onOpened: (gate: number, message: string, tricks: string[]) => void; onDone: () => void }) {
+export function TrickbotMission({ phase, rank, callSign, cracked, tricks, onOpened, onDone, onJump }: { phase: number; rank: string; callSign: string; cracked: number[]; tricks: string[]; onOpened: (gate: number, message: string, tricks: string[]) => void; onDone: () => void; onJump?: (gate: number) => void }) {
   const gates = PHASE_GATES[phase]!;
   const [index, setIndex] = useState(() => gates.find(g => !cracked.includes(g)) ?? gates[0]!);
   const [tab, setTab] = useState<Tab>('gates');
@@ -85,7 +85,7 @@ export function TrickbotMission({ phase, rank, callSign, cracked, tricks, onOpen
     <div className="app" data-theme={PHASES[phase]!.theme}>
       <TopBar phase={PHASES[phase]!.name} tab={tab} onTab={setTab} counts={{ notes: tricks.length }} rank={rank} callSign={callSign} />
       <main className="board" hidden={tab !== 'gates'}>
-        <aside className="side"><GateGrid gate={index} cracked={cracked} /></aside>
+        <aside className="side"><GateGrid gate={index} cracked={cracked} onPick={onJump && (g => (gates.includes(g) ? setIndex(g) : onJump(g)))} /></aside>
         <Gate key={index} index={index} phase={phase} isLast={isLast} used={tricks} onOpened={(message, found) => onOpened(index, message, found)} onNext={() => (isLast ? onDone() : setIndex(index + 1))} />
       </main>
       {tab === 'notes' && <FieldNotes found={tricks} />}

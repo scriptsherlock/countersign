@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { SparksArt } from '../assets/guards';
 import { artFor } from '../assets/art';
 import { HINTS_PER_GATE, canCallSparks, triesUntilSignal, type GateState } from '../missions/trickbot/machine';
@@ -19,11 +20,20 @@ export function CommsButton({ state, onCall }: { state: GateState; onCall: () =>
 }
 
 // Exact hint text, apart from the name of the bot on duty. Sparks adds the heading and nothing else.
+// The list can be hidden to a small tab; a new signal opens it again.
 export function Signals({ state, hints, name }: { state: GateState; hints: ReadonlyArray<string>; name: string }) {
+  const [hidden, setHidden] = useState(false);
+  useEffect(() => setHidden(false), [state.signals]);
   if (!state.signals) return null;
+  const count = `${state.signals} ${state.signals === 1 ? 'signal' : 'signals'}`;
   return (
-    <ol className="signals" aria-live="polite">
-      {hints.slice(0, state.signals).map((hint, i) => <li key={i} className="signal"><b>Incoming from Sparks. Signal {i + 1} of {HINTS_PER_GATE}</b><span className="signal-text">{asGuard(hint, name)}</span></li>)}
-    </ol>
+    <div className={`signals-box ${hidden ? 'is-hidden' : ''}`}>
+      <button type="button" className="signals-toggle" aria-expanded={!hidden} aria-controls="sparks-signals" onClick={() => setHidden(!hidden)}>
+        {hidden ? `Show Sparks’s ${count}` : 'Hide signals'}
+      </button>
+      <ol id="sparks-signals" className="signals" aria-live="polite" hidden={hidden}>
+        {hints.slice(0, state.signals).map((hint, i) => <li key={i} className="signal"><b>Incoming from Sparks. Signal {i + 1} of {HINTS_PER_GATE}</b><span className="signal-text">{asGuard(hint, name)}</span></li>)}
+      </ol>
+    </div>
   );
 }

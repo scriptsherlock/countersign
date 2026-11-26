@@ -111,6 +111,21 @@ test('AT-18: Sparks reads Trickbot’s hints word for word, and the next signal 
   await expect(page.locator('.signal-text').last()).toHaveText('Try the most obvious thing you can think of.');
 });
 
+test('Sparks’s signals hide to a tab, show again, and reopen on a new signal', async ({ page }) => {
+  await page.goto(BUILT_FILE);
+  await reachGateOne(page);
+  await page.getByRole('button', { name: 'Call Sparks' }).click();
+  await page.getByRole('button', { name: 'Hide signals' }).click();
+  await expect(page.locator('.signal-text')).toBeHidden();
+  await page.getByRole('button', { name: 'Show Sparks’s 1 signal' }).click();
+  await expect(page.locator('.signal-text').last()).toBeVisible();
+  await page.getByRole('button', { name: 'Hide signals' }).click();
+  for (const word of ['one', 'two', 'three', 'four']) await send(page, `hello ${word}`);
+  await page.getByRole('button', { name: 'Call Sparks' }).click();
+  await expect(page.locator('.signal-text').last()).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Hide signals' })).toBeVisible();
+});
+
 test('AT-50: an upset message gets the Childline reply and no bot voice', async ({ page }) => {
   await page.goto(BUILT_FILE);
   await reachGateOne(page);
@@ -136,4 +151,22 @@ test('progress survives a reload', async ({ page }) => {
   await page.reload();
   await page.getByRole('button', { name: 'Continue' }).click();
   await expect(page.getByRole('heading', { name: 'Gate 2: Secret rule' })).toBeVisible();
+});
+
+test('#unlock lets a teacher jump to any phase and any gate', async ({ page }) => {
+  await page.goto(`${BUILT_FILE}#unlock`);
+  await page.getByRole('button', { name: '3. The Counting House' }).click();
+  await page.getByRole('button', { name: 'Skip scene' }).click();
+  await expect(page.getByRole('heading', { name: /^Gate 8:/ })).toBeVisible();
+  await page.getByRole('button', { name: /Go to gate 9$/ }).click();
+  await expect(page.getByRole('heading', { name: /^Gate 9:/ })).toBeVisible();
+  await page.getByRole('button', { name: /Go to gate 12$/ }).click(); // mid-phase: straight into the gate
+  await expect(page.getByRole('heading', { name: /^Gate 12:/ })).toBeVisible();
+});
+
+test('without #unlock the gates are progress only', async ({ page }) => {
+  await page.goto(BUILT_FILE);
+  await expect(page.getByText('Jump to a phase')).toHaveCount(0);
+  await reachGateOne(page);
+  await expect(page.getByRole('button', { name: /Go to gate/ })).toHaveCount(0);
 });

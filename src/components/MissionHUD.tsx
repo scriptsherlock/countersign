@@ -24,13 +24,22 @@ export function TopBar({ phase, tab, onTab, counts, rank, callSign }: { phase: s
   );
 }
 
-export function GateGrid({ gate, cracked }: { gate: number; cracked: number[] }) {
+export function GateGrid({ gate, cracked, onPick }: { gate: number; cracked: number[]; onPick?: (gate: number) => void }) {
   const phaseEnd = (n: number) => PHASE_GATES.some(gates => gates[gates.length - 1] === n);
   return (
     <nav aria-label="Gates">
       <h2>Gates</h2>
       <ol className="levels">
-        {Array.from({ length: GATE_COUNT }, (_, i) => <li key={i} className={`lvl ${cracked.includes(i) ? 'cracked' : ''} ${i === gate ? 'current' : ''} ${i > gate && !cracked.includes(i) ? 'sealed' : ''} ${phaseEnd(i) ? 'phase-end' : ''}`} aria-current={i === gate ? 'step' : undefined} aria-label={`Gate ${i + 1}: ${cracked.includes(i) ? 'open' : i === gate ? 'you are here' : 'sealed'}`}>{i + 1}</li>)}
+        {Array.from({ length: GATE_COUNT }, (_, i) => {
+          const cls = `lvl ${cracked.includes(i) ? 'cracked' : ''} ${i === gate ? 'current' : ''} ${i > gate && !cracked.includes(i) ? 'sealed' : ''} ${phaseEnd(i) ? 'phase-end' : ''}`;
+          const label = `Gate ${i + 1}: ${cracked.includes(i) ? 'open' : i === gate ? 'you are here' : 'sealed'}`;
+          // With #unlock, every gate can be picked; otherwise the grid only shows progress.
+          return onPick ? (
+            <li key={i}><button type="button" className={`${cls} lvl-pick`} aria-current={i === gate ? 'step' : undefined} aria-label={`${label}. Go to gate ${i + 1}`} onClick={() => onPick(i)}>{i + 1}</button></li>
+          ) : (
+            <li key={i} className={cls} aria-current={i === gate ? 'step' : undefined} aria-label={label}>{i + 1}</li>
+          );
+        })}
       </ol>
     </nav>
   );

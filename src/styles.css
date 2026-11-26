@@ -113,6 +113,13 @@ h1 { font: 400 1em/1 var(--display); }
 .lvl.cracked { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
 .lvl.current { border-color: var(--ink); box-shadow: 0 0 0 3px var(--accent); }
 .lvl.sealed { border-style: dashed; color: var(--muted); background: var(--soft); }
+.levels li:has(.lvl-pick) { list-style: none; }
+.lvl-pick { cursor: pointer; color: inherit; background: transparent; transition: transform 120ms var(--ease-out); }
+.lvl-pick.sealed { background: var(--soft); }
+.lvl-pick:active { transform: scale(0.95); }
+.jump { margin-top: .9rem; }
+.jump-label { margin: 0 0 .4rem; font-weight: 700; }
+.jump .row { flex-wrap: wrap; }
 
 .console { display: flex; flex-direction: column; min-width: 0; }
 .casehead { display: flex; flex-wrap: wrap; gap: .4rem .9rem; align-items: center; padding: .55rem .9rem; border-bottom: 2px solid var(--accent); }
@@ -121,7 +128,14 @@ h1 { font: 400 1em/1 var(--display); }
 .comms { display: flex; align-items: center; gap: .4rem; }
 .comms-sparks { width: 50px; flex: none; }
 .comms-sparks svg, .comms-sparks img { display: block; width: 100%; }
-.signals { flex-basis: 100%; display: grid; gap: .3rem; max-height: 8.5rem; overflow-y: auto; padding: .45rem .7rem; background: var(--accent); color: var(--accent-ink); border-radius: 4px; }
+.signals-box { flex-basis: 100%; display: grid; grid-template-columns: 1fr auto; align-items: start; gap: .5rem; }
+.signals-box.is-hidden { flex-basis: auto; grid-template-columns: auto; }
+.signals-toggle { grid-column: 2; grid-row: 1; min-height: 44px; padding: 0 .8rem; border: 2px solid var(--accent); border-radius: 6px; background: transparent; color: var(--ink); font: inherit; font-size: .9375rem; font-weight: 700; cursor: pointer; transition: transform 120ms var(--ease-out); }
+.signals-toggle:active { transform: scale(0.97); }
+.signals[hidden] { display: none; }
+.signals-box.is-hidden .signals-toggle { grid-column: 1; }
+.signals { grid-column: 1; grid-row: 1; }
+.signals { display: grid; gap: .3rem; max-height: 8.5rem; overflow-y: auto; padding: .45rem .7rem; background: var(--accent); color: var(--accent-ink); border-radius: 4px; }
 .signal { display: grid; font-size: 1rem; line-height: 1.35; animation: slide 200ms var(--ease-out); }
 .signal b { font-size: .9375rem; }
 
